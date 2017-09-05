@@ -1,7 +1,5 @@
 # uRetroEngine
 
-(Work continue on DEV branch ...)
-
 Unity retro game framework with lua support
 
 FEATURES:
@@ -41,7 +39,7 @@ EXECUTE:
 
 	*- load folder LuaGame and set resulution*
 
-> Start game from cartridge only:
+    > Start game from cartridge only:
 
 	uRetroEngine.exe -cartridge LuaGame -resolution 1280 800 false
 	
