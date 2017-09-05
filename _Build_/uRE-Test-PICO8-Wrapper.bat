@@ -1,0 +1,1 @@
+uRetroEngine.exe -game wrapper_pico8 -resolution 1024 800 false

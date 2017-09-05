@@ -1,0 +1,1 @@
+uRetroEngine.exe -game wrapper_tic80 -resolution 1280 720 false
