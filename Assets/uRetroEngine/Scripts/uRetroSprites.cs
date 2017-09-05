@@ -114,6 +114,11 @@ namespace uRetroEngine
             return sprites[ID].data[x + y * uRetroConfig.sprite_width];
         }
 
+        public static byte[] GetPixels(int id)
+        {
+            return sprites[id].data;
+        }
+
         public static void Store(int ID)
         {
             sprites[ID].Store();

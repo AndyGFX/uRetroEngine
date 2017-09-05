@@ -1,0 +1,4636 @@
+{
+  "definition": "{\"cartridgesFolder\":\"uRetroEngine_Cards\",\"cartridgeName\":\"wrapper_tic80\",\"fileFont\":\"uRE_Font.png\",\"fileColors\":\"uRE_Colors.png\",\"fileSprites\":\"uRE_Sprites.png\",\"fileTilemap\":\"uRE_Tilemap.json\",\"chars\":\" !\\\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ \",\"charSpacing\":7,\"screen_width\":240,\"screen_height\":136,\"flipScreenY\":true,\"sprite_width\":8,\"sprite_height\":8,\"tilemap_width\":128,\"tilemap_height\":32,\"tilemap_layers\":0,\"max_colors\":32,\"KeyCode_UP\":273,\"KeyCode_DOWN\":274,\"KeyCode_RIGHT\":275,\"KeyCode_LEFT\":276,\"KeyCode_A\":122,\"KeyCode_B\":120,\"KeyCode_X\":97,\"KeyCode_Y\":115,\"KeyCode_START\":13,\"KeyCode_OPTION\":27}",
+  "palette": [
+    "#FF140C1C",
+    "#FF442434",
+    "#FF30346D",
+    "#FF4E4A4E",
+    "#FF854C30",
+    "#FF346524",
+    "#FFD04648",
+    "#FF757161",
+    "#FF597DCE",
+    "#FFD27D2C",
+    "#FF8595A1",
+    "#FF6DAA2C",
+    "#FFD2AA99",
+    "#FF6DC2CA",
+    "#FFDAD45E",
+    "#FFDEEED6",
+    "#FF306082",
+    "#FF5B6EE1",
+    "#FF639BFF",
+    "#FF5FCDE4",
+    "#FFCBDBFC",
+    "#FFFFFFFF",
+    "#FF9BADB7",
+    "#FF847E87",
+    "#FF696A6A",
+    "#FF595652",
+    "#FF76428A",
+    "#FFAC3232",
+    "#FFD95763",
+    "#FFD77BBA",
+    "#FF8F974A",
+    "#FF8A6F30"
+  ],
+  "sprites": [
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADw8AAAAAAAAPDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAA8PAAAAAAAPABEPAAAAAA8AAA8AAAAAAA8PAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAATEwAAAAAAEwAUEwAAABEAAAAUEwAAEQAAAAATAAAAEQAAEwAAAAAAEREAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAABMAABMAAAATAAAAABMAEwAAAAAAAAAAAAAAABMAEwAAAAATAAAAEwAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAACAAAAAAAAAgIAAAAAAIICAgAAAAAAggICAAAAAACCAgIAAAAAAIACAgAAAAAAAIAAAAAAAAAAAIAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAIAAAAAAAAAAgAAAAAAAIICAAAAAAAAggIAAAAAAACCAgAAAAAAAIACAAAAAAAAAIAAAAAAAAAAAIAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAACAAAAAAAAAAIAAAAAAAACAgAAAAAAAAICAAAAAAAAAgIAAAAAAAAAAgAAAAAAAAAAAIAAAAAAAAAAAIAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAABxQHAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAADwAAAAAAAA8RDwAAAAAPERMRDwAAAAAPEQ8AAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAcABwAAAAAAAAGAAAAAAAAHAAcAAAAAAIAAAACAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAwAAAAAAAwACgAMAAAAAAwKDAAAAAwKChQKCgwAAAAMCgwAAAAADAAKAAwAAAAAAAwAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    }
+  ],
+  "characters": [
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAVFRUAFQAVFRUVFQAAAAAAFRUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAABUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAABUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAFQAVAAAAABUVFRUVAAAAABUAFQAAAAAVFRUVFQAAAAAVABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAVABUVAAAAFQAAFQAVABUVFRUVFRUAABUAFQAAFQAAABUVABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FQAAAAAVFQAAFRUAABUVAAAAABUAAAAAFRUAABUVAAAVFQAAAAAVAAAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUVAAAAAAAVAAAVFQAVABUAAAAVFQAAABUVFQAVFQAVABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAABUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAFRUVFRUAABUAAAAAABUAFQAAAAAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAABUAAAAAABUAFQAAAAAAFQAAFRUVFRUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAVABUAAAAAAAAVFRUAAAAAABUVFQAAAAAVABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAABUAAAAAAAAAFQAAAAAAFRUVFRUAAAAAABUAAAAAAAAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAABUAFRUAAAAAABUVFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAFQAAAAAAAAAVAAAAAAAAABUAAAAAAAAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAABUVAAAAAAAAFRUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FQAAAAAAAAAAFRUAAAAAAAAAABUAAAAAAAAAABUVAAAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUVFRUVAAAVAAAAAAAVABUAAAAAABUAFQAAAAAAFQAAFRUVFRUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FQAAAAAVAAAVAAAAABUAABUVFRUVFRUAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUAAAAVAAAVABUAAAAVABUAFQAAABUAFQAAFQAAFQAVAAAAFRUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUAAAAVAAAVAAAAAAAVABUAABUAABUAFQAAFQAAFQAAFRUAFRUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAFRUAAAAAAAAVABUVAAAAABUAAAAAAAAAFQAAAAAVFRUVFRUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUAABUVFQAVAAAAFQAVABUAAAAVABUAFQAAABUAFQAAFRUVAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUVFRUVAAAVABUAAAAVABUAABUAABUAFQAAFQAAFQAAFRUAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAFQAVFQAAAAAVAAAAFQAAABUAAAAAFRUAFQAAAAAAABUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUVABUVAAAVAAAVAAAVABUAABUAABUAFQAAFQAAFQAAFRUAFRUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUAABUVAAAVAAAVAAAVABUAABUAABUAFQAAABUAFQAAFRUVFRUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAABUVAAAAFRUAFRUAAAAVFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAABUAFRUAFRUAABUVFQAVFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAVAAAAAAAAFQAVAAAAABUAAAAVAAAVAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAVAAAVAAAAABUAABUAAAAAFQAAFQAAAAAVAAAVAAAAABUAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAVAAAAAAAVAAAVAAAAFQAAAAAVABUAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAVFQAAAAAAAAAAFRUAFRUAAAAVAAAAABUAABUAAAAAABUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAVFRUVAAAAFQAAAAAVABUAABUVAAAVFQAVAAAVABUAABUVFRUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUAAAAAABUAABUAAAAAFQAAABUAAAAVAAAVAAAVFRUVFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUVFQAVAAAVAAAVABUAABUAABUAFQAAFQAVAAAVFRUAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAVFRUAAAAAFQAAABUAABUAAAAAABUAFQAAAAAAFQAAFQAAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUVFQAVAAAAAAAVABUAAAAAABUAABUAAAAVAAAAABUVFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUVFQAVAAAVAAAVABUAABUAABUAFQAAAAAAFQAVAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUVFQAAAAAVAAAVAAAAABUAABUAAAAAFQAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAVFRUAAAAAFQAAABUAABUAAAAAABUAFQAVAAAAFQAVFRUAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUVFQAAAAAVAAAAAAAAABUAAAAAAAAAFQAAAAAVFRUVFRUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FQAAAAAAFQAVAAAAAAAVABUVFRUVFRUAFQAAAAAAFQAVAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUAAAAAAAAVAAAAAAAVABUAAAAAABUAABUVFRUVFQAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUVFQAAAAAVAAAAAAAAABUAAAAAAAAVABUAAAAVFQAAABUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUVFQAVAAAAAAAAABUAAAAAAAAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUVFQAAAAAAABUAAAAAFRUVAAAAAAAAAAAVAAAVFRUVFRUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUVFQAAAAAAABUAAAAAFRUVAAAAABUAAAAAAAAVFRUVFRUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUVFRUVAAAVAAAAAAAVABUAAAAAABUAFQAAAAAAFQAAFRUVFRUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUVFQAAAAAVAAAVAAAAABUAABUAAAAAFQAAFQAAAAAAFRUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUVFRUVAAAVAAAAAAAVABUAFQAAABUAABUAAAAAFQAVABUVFRUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUVFQAAAAAVAAAVAAAAFRUAABUAABUAFQAAFQAVAAAAFRUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUAABUVAAAVAAAVAAAVABUAABUAABUAFQAAFQAAFQAAFRUAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAFQAAAAAAAAAVABUVFRUVFRUAAAAAAAAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUVFRUVFQAVAAAAAAAAABUAAAAAAAAAFQAAAAAAAAAAFRUVFRUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAFRUVFQAAFRUAAAAAABUAAAAAAAAAABUVAAAAAAAAAAAVFRUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUVFQAAFQAAAAAAAAAAFRUAAAAAABUAAAAAAAAVFRUVFRUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FQAAAAAAFQAAFRUAFRUAAAAAABUAAAAAABUVABUVAAAVAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAFQAAAAAAFRUAABUVFRUAAAAAAAAAABUVAAAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FQAAAAAAFQAVFRUAAAAVABUAABUVABUAFQAAAAAVFQAVAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAVFRUVFRUVABUAAAAAABUAFQAAAAAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAFQAAAAAAFRUAAAAAABUAAAAAABUVAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAVAAAAAAAVABUAAAAAABUAFRUVFRUVFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAABUAAAAAAAAAABUAAAAAAAAAABUAAAAAAAAVAAAAAAAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FQAAAAAAAAAVAAAAAAAAABUAAAAAAAAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAFQAAAAAAABUVAAAAAAAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUAAAAAAAAVABUAFQAAABUAFQAVAAAAFQAVABUAAAAVFRUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUVFQAVAAAVAAAAABUAABUAAAAAFQAAFQAAAAAAFRUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUVFQAAAAAVAAAAFQAAABUAAAAVAAAAFQAAABUAAAAAFQAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUVAAAAAAAVAAAVAAAAABUAABUAAAAAABUAFQAAAAAVFRUVFRUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUVFQAAAAAVABUAFQAAABUAFQAVAAAAFQAVABUAAAAVABUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FQAAAAAAAAAVAAAAFQAAAAAVFRUVFQAAAAAAABUAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUAFRUAAAAVABUAABUAABUAFQAAFQAAFQAVABUAAAAAFRUVFRUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUVFQAAAAAVAAAAAAAAAAAVAAAAAAAAABUAAAAVFRUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FQAAABUAAAAVAAAAFQAAABUVFRUVABUAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUAAAAAAAAVAAAAAAAAABUAAAAAAAAAFQAAABUAAAAAFRUVFQAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUAAAAAABUAAAAAAAAAFQAAAAAAABUAFQAAAAAVAAAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FQAAAAAAFQAVAAAAAAAVABUVFRUVFRUAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUAAAAAAAAAFQAAABUVFRUAAAAAAAAAABUAAAAVFRUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUAAAAAAAAVAAAAAAAAAAAVAAAAAAAAABUAAAAVFRUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUVFQAAAAAVAAAAFQAAABUAAAAVAAAAFQAAABUAAAAAFRUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUAAAAAABUAFQAAAAAAFQAVAAAAAAAVABUAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUVFQAAAAAVAAAAFQAAABUAAAAVAAAAABUAABUAAAAVABUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUAAAAAAAAVAAAAAAAAAAAVAAAAAAAAABUAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FQAAFQAAAAAVABUAFQAAABUAFQAVAAAAFQAVABUAAAAAFQAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAABUAAAAAAAAAFQAAAAAVFRUVFRUAFQAAABUAAAAVAAAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUVFRUAAAAVAAAAAAAAABUAAAAAAAAAABUAAAAAAAAVFRUVFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAVFRUAAAAAFQAAAAAAABUAAAAAAAAAABUAAAAAAAAAABUVFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUVFRUAAAAVAAAAAAAAAAAVFRUVAAAAFQAAAAAAAAAAFRUVFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FQAAABUAAAAAFQAVAAAAAAAAFQAAAAAAABUAFQAAAAAVAAAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FQAAFRUVAAAVABUAAAAAABUAFQAAAAAAFQAVAAAAAAAAFRUVFRUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FRUAABUAAAAVABUAFQAAABUAFQAVAAAAFQAVABUAAAAVAAAVFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAFQAAAAAAAAAVAAAAAAAVFQAVFQAAFQAAAAAAFQAVAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAABUVFRUVFRUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FQAAAAAAFQAVAAAAAAAVAAAVFQAVFQAAAAAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAFQAAAAAAAAAAFQAAAAAAABUVAAAAAAAAFQAAAAAAAAAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAVFRUAFQAVFRUVFQAAAAAAFRUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAABUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAABUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAFQAVAAAAABUVFRUVAAAAABUAFQAAAAAVFRUVFQAAAAAVABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAVABUVAAAAFQAAFQAVABUVFRUVFRUAABUAFQAAFQAAABUVABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FQAAAAAVFQAAFRUAABUVAAAAABUAAAAAFRUAABUVAAAVFQAAAAAVAAAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUVAAAAAAAVAAAVFQAVABUAAAAVFQAAABUVFQAVFQAVABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAABUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAFRUVFRUAABUAAAAAABUAFQAAAAAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAABUAAAAAABUAFQAAAAAAFQAAFRUVFRUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAVABUAAAAAAAAVFRUAAAAAABUVFQAAAAAVABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAABUAAAAAAAAAFQAAAAAAFRUVFRUAAAAAABUAAAAAAAAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAVFRUAFQAVFRUVFQAAAAAAFRUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAABUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAABUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAFQAVAAAAABUVFRUVAAAAABUAFQAAAAAVFRUVFQAAAAAVABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAVABUVAAAAFQAAFQAVABUVFRUVFRUAABUAFQAAFQAAABUVABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FQAAAAAVFQAAFRUAABUVAAAAABUAAAAAFRUAABUVAAAVFQAAAAAVAAAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "ABUVAAAAAAAVAAAVFQAVABUAAAAVFQAAABUVFQAVFQAVABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAABUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAFRUVFRUAABUAAAAAABUAFQAAAAAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAABUAAAAAABUAFQAAAAAAFQAAFRUVFRUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAVABUAAAAAAAAVFRUAAAAAABUVFQAAAAAVABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAABUAAAAAAAAAFQAAAAAAFRUVFRUAAAAAABUAAAAAAAAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAABUAFRUAAAAAABUVFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAFQAAAAAAAAAVAAAAAAAAABUAAAAAAAAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "AAAAAAAAAAAAAAAAAAAAABUVAAAAAAAAFRUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "data": "FQAAAAAAAAAAFRUAAAAAAAAAABUAAAAAAAAAABUVAAAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "stored": "AA==",
+      "flags": 0
+    }
+  ],
+  "tilemap": [],
+  "luaCode": "\r\nLibrary:Require('tic-80.lua')\r\n\r\n-- title:  pslib\r\n-- author: Viza\r\n-- desc:   An advenced particle system library for the VIC-80\r\n-- script: lua\r\n\r\n\r\n--==================================================================================--\r\n-- INTRO/DOCS ======================================================================--\r\n--==================================================================================--\r\n\r\n--[[\r\n\r\nHi!\r\nFirst of all, don't be intimidated by the size of the source, it is very \r\nstraightforward to understand (hopefully :) )\r\n\r\npslib is:\r\n- data driven: to create a particle system you fill out a couple of tables, then handle it to pslib\r\n- modular: You only need to include the modules you use in your cart\r\n- easily extendable: Can't achieve the particle system behaviour you imagined? Just write a simple new module\r\n\r\nSo how it works?\r\n\r\nA particle system is consist of 4 main parts:\r\n- emit timer(s) dictate WHEN to emit a particle\r\n- emitter(s) define WHERE to create the particle, and the initial SPEED\r\n- drawfunc(s) know how to DRAW a particle\r\n- affector(s) know how to MOVE a particle\r\n\r\nTo create a particle system, call make_psystem, and then fill the emittimers, emitters,\r\ndrawfuncs, and affectors tables with your parameters. See the SAMPLE PARTICLE SYSTEMS section\r\nbelow for examples.\r\n\r\nAfter that you need to call update_psystems in your TIC function to... uhm... update the \r\nparticle systems, and draw_ps or draw_psystems to draw them.\r\n\r\nThese are the basics, but actually there are not much more to it. :)\r\nYou can find more information below in the comments about the main functions or modules.\r\n\r\nIf you have questions, feel free to contact me at:\r\nemail: viza@ccatgames, twitter: @viza, web: blog.ccatgames.com\r\n\r\n--]]\r\n\r\n\r\n\r\nfunction lerp(a, b, t)\r\n\treturn a + (b - a) * t\r\nend\r\n--==================================================================================--\r\n-- PARTICLE SYSTEM LIBRARY =========================================================--\r\n--==================================================================================--\r\n\r\nparticle_systems = {}\r\n\r\n-- Call this, to create an empty particle system, and then fill the emittimers, emitters,\r\n-- drawfuncs, and affectors tables with your parameters.\r\nfunction make_psystem(minlife, maxlife, minstartsize, maxstartsize, minendsize, maxendsize)\r\n\tlocal ps = {\r\n\t-- global particle system params\r\n\r\n\t-- if true, automatically deletes the particle system if all of it's particles died\r\n\tautoremove = true,\r\n\r\n\tminlife = minlife,\r\n\tmaxlife = maxlife,\r\n\r\n\tminstartsize = minstartsize,\r\n\tmaxstartsize = maxstartsize,\r\n\tminendsize = minendsize,\r\n\tmaxendsize = maxendsize,\r\n\r\n\t-- container for the particles\r\n\tparticles = {},\r\n\r\n\t-- emittimers dictate when a particle should start\r\n\t-- they called every frame, and call emit_particle when they see fit\r\n\t-- they should return false if no longer need to be updated\r\n\temittimers = {},\r\n\r\n\t-- emitters must initialize p.x, p.y, p.vx, p.vy\r\n\temitters = {},\r\n\r\n\t-- every ps needs a drawfunc\r\n\tdrawfuncs = {},\r\n\r\n\t-- affectors affect the movement of the particles\r\n\taffectors = {},\r\n\t}\r\n\r\n\ttable.insert(particle_systems, ps)\r\n\r\n\treturn ps\r\nend\r\n\r\n-- Call this to update all particle systems\r\nfunction update_psystems()\r\n\tlocal timenow = time()\r\n\tfor key,ps in pairs(particle_systems) do\r\n\t\tupdate_ps(ps, timenow)\r\n\tend\r\nend\r\n\r\n-- updates individual particle systems\r\n-- most of the time, you don't have to deal with this, the above function is sufficient\r\n-- but you can call this if you want (for example fast forwarding a particle system before first draw)\r\nfunction update_ps(ps, timenow)\r\n\tfor key,et in pairs(ps.emittimers) do\r\n\t\tlocal keep = et.timerfunc(ps, et.params)\r\n\t\tif (keep==false) then\r\n\t\t\ttable.remove(ps.emittimers, key)\r\n\t\tend\r\n\tend\r\n\r\n\tfor key,p in pairs(ps.particles) do\r\n\t\tp.phase = (timenow-p.starttime)/(p.deathtime-p.starttime)\r\n\r\n\t\tfor key,a in pairs(ps.affectors) do\r\n\t\t\ta.affectfunc(p, a.params)\r\n\t\tend\r\n\r\n\t\tp.x = p.x + p.vx\r\n\t\tp.y = p.y + p.vy\r\n\r\n\t\tlocal dead = false\r\n\t\tif (p.x<0 or p.x>Display:Width() or p.y<0 or p.y>Display:Height()) then\r\n\t\t\tdead = true\r\n\t\tend\r\n\r\n\t\tif (timenow>=p.deathtime) then\r\n\t\t\tdead = true\r\n\t\tend\r\n\r\n\t\tif (dead==true) then\r\n\t\t\ttable.remove(ps.particles, key)\r\n\t\tend\r\n\tend\r\n\r\n\tif (ps.autoremove==true and #ps.particles<=0) then\r\n\t\tlocal psidx = -1\r\n\t\tfor pskey,pps in pairs(particle_systems) do\r\n\t\t\tif pps==ps then\r\n\t\t\t\ttable.remove(particle_systems, pskey)\r\n\t\t\t\treturn\r\n\t\t\tend\r\n\t\tend\r\n\tend\r\nend\r\n\r\n-- draw a single particle system\r\nfunction draw_ps(ps, params)\r\n\tfor key,df in pairs(ps.drawfuncs) do\r\n\t\tdf.drawfunc(ps, df.params)\r\n\tend\r\nend\r\n\r\n-- draws all particle system\r\n-- This is just a convinience function, you probably want to draw the individual particles,\r\n-- if you want to control the draw order in relation to the other game objects for example\r\nfunction draw_psystems()\r\n\tfor key,ps in pairs(particle_systems) do\r\n\t\tdraw_ps(ps)\r\n\tend\r\nend\r\n\r\n-- This need to be called from emitttimers, when they decide it is time to emit a particle\r\nfunction emit_particle(psystem)\r\n\tlocal p = {}\r\n\r\n\tlocal ecount = nil\r\n\tlocal e = psystem.emitters[math.random(#psystem.emitters)]\r\n\te.emitfunc(p, e.params)\r\n\r\n\tp.phase = 0\r\n\tp.starttime = time()\r\n\tp.deathtime = time()+frnd(psystem.maxlife-psystem.minlife)+psystem.minlife\r\n\r\n\tp.startsize = frnd(psystem.maxstartsize-psystem.minstartsize)+psystem.minstartsize\r\n\tp.endsize = frnd(psystem.maxendsize-psystem.minendsize)+psystem.minendsize\r\n\r\n\ttable.insert(psystem.particles, p)\r\nend\r\n\r\nfunction frnd(max)\r\n\treturn math.random()*max\r\nend\r\n\r\n\r\n--================================================================--\r\n-- MODULES =======================================================--\r\n--================================================================--\r\n\r\n-- You only need to copy the modules you actually use to your program\r\n\r\n\r\n-- EMIT TIMERS ==================================================--\r\n\r\n-- Spawns a bunch of particles at the same time, then removes itself\r\n-- params:\r\n-- num - the number of particle to spawn\r\nfunction emittimer_burst(ps, params)\r\n\tfor i=1,params.num do\r\n\t\temit_particle(ps)\r\n\tend\r\n\treturn false\r\nend\r\n\r\n-- Emits a particle every \"speed\" time\r\n-- params:\r\n-- speed - time between particle emits\r\nfunction emittimer_constant(ps, params)\r\n\tif (params.nextemittime<=time()) then\r\n\t\temit_particle(ps)\r\n\t\tparams.nextemittime = params.nextemittime + params.speed\t\t\r\n\tend\r\n\treturn true\r\nend\r\n\r\n-- EMITTERS =====================================================--\r\n\r\n-- Emits particles from a single point\r\n-- params:\r\n-- x,y - the coordinates of the point\r\n-- minstartvx, minstartvy and maxstartvx, maxstartvy - the start velocity is randomly chosen between these values\r\nfunction emitter_point(p, params)\r\n\tp.x = params.x\r\n\tp.y = params.y\r\n\r\n\tp.vx = frnd(params.maxstartvx-params.minstartvx)+params.minstartvx\r\n\tp.vy = frnd(params.maxstartvy-params.minstartvy)+params.minstartvy\r\nend\r\n\r\n-- Emits particles from the surface of a rectangle\r\n-- params:\r\n-- minx,miny and maxx, maxy - the corners of the rectangle\r\n-- minstartvx, minstartvy and maxstartvx, maxstartvy - the start velocity is randomly chosen between these values\r\nfunction emitter_box(p, params)\r\n\tp.x = frnd(params.maxx-params.minx)+params.minx\r\n\tp.y = frnd(params.maxy-params.miny)+params.miny\r\n\r\n\tp.vx = frnd(params.maxstartvx-params.minstartvx)+params.minstartvx\r\n\tp.vy = frnd(params.maxstartvy-params.minstartvy)+params.minstartvy\r\nend\r\n\r\n-- AFFECTORS ====================================================--\r\n\r\n-- Constant force applied to the particle troughout it's life\r\n-- Think gravity, or wind\r\n-- params: \r\n-- fx and fy - the force vector\r\nfunction affect_force(p, params)\r\n\tp.vx = p.vx + params.fx\r\n\tp.vy = p.vy + params.fy\r\nend\r\n\r\n-- A rectangular region, if a particle happens to be in it, apply a constant force to it\r\n-- params: \r\n-- zoneminx, zoneminy and zonemaxx, zonemaxy - the corners of the rectangular area\r\n-- fx and fy - the force vector\r\nfunction affect_forcezone(p, params)\r\n\tif (p.x>=params.zoneminx and p.x<=params.zonemaxx and p.y>=params.zoneminy and p.y<=params.zonemaxy) then\r\n\t\tp.vx = p.vx + params.fx\r\n\t\tp.vy = p.vy + params.fy\r\n\tend\r\nend\r\n\r\n-- A rectangular region, if a particle happens to be in it, the particle stops\r\n-- params: \r\n-- zoneminx, zoneminy and zonemaxx, zonemaxy - the corners of the rectangular area\r\nfunction affect_stopzone(p, params)\r\n\tif (p.x>=params.zoneminx and p.x<=params.zonemaxx and p.y>=params.zoneminy and p.y<=params.zonemaxy) then\r\n\t\tp.vx = 0\r\n\t\tp.vy = 0\r\n\tend\r\nend\r\n\r\n-- A rectangular region, if a particle cames in contact with it, it bounces back\r\n-- params: \r\n-- zoneminx, zoneminy and zonemaxx, zonemaxy - the corners of the rectangular area\r\n-- damping - the velocity loss on contact\r\nfunction affect_bouncezone(p, params)\r\n\tif (p.x>=params.zoneminx and p.x<=params.zonemaxx and p.y>=params.zoneminy and p.y<=params.zonemaxy) then\r\n\t\tp.vx = -p.vx*params.damping\r\n\t\tp.vy = -p.vy*params.damping\r\n\tend\r\nend\r\n\r\n-- A point in space which pulls (or pushes) particles in a specified radius around it\r\n-- params:\r\n-- x,y - the coordinates of the affector\r\n-- radius - the size of the affector\r\n-- strength - push/pull force - proportional with the particle distance to the affector coordinates\r\nfunction affect_attract(p, params)\r\n\tif (math.abs(p.x-params.x)+math.abs(p.y-params.y)<params.mradius) then\r\n\t\tp.vx = p.vx + (p.x-params.x)*params.strength\r\n\t\tp.vy = p.vy + (p.y-params.y)*params.strength\r\n\tend\r\nend\r\n\r\n-- Moves particles around in a sin/cos wave or circulary. Directly modifies the particle position\r\n-- params:\r\n-- speed - the effect speed\r\n-- xstrength, ystrength - the amplituse around the x and y axes\r\nfunction affect_orbit(p, params)\r\n\tparams.phase = params.phase + params.speed\r\n\tp.x = p.x + math.sin(params.phase)*params.xstrength\r\n\tp.y = p.y + math.cos(params.phase)*params.ystrength\r\nend\r\n\r\n-- DRAW FUNCS ===================================================--\r\n\r\n-- Filled circle particle drawer, the particle animates it's size and color trough it's life\r\n-- params:\r\n-- colors array - indexes to the palette, the particle goes trough these in order trough it's lifetime\r\n-- startsize and endsize is coming from the particle system parameters, not the draw func params!\r\nfunction draw_ps_fillcirc(ps, params)\r\n\tlocal i = 0\r\n\tfor key,p in pairs(ps.particles) do\r\n\t\tc = math.floor(lerp(0,1,p.phase*1000)*#params.colors)+1\t\r\n\t\tr = (2-lerp(0,1,p.phase*1000))*p.startsize+p.phase*p.endsize\r\n\t\tcirc(p.x,p.y,r,params.colors[c] or 0)\r\n\t\t\r\n\tend\r\nend\r\n\r\n-- Single pixel particle, which animates trough the given colors\r\n-- params:\r\n-- colors array - indexes to the palette, the particle goes trough these in order trough it's lifetime\r\nfunction draw_ps_pixel(ps, params)\r\n\t\r\n\tfor key,p in pairs(ps.particles) do\r\n\t\tc = math.floor(lerp(0,1,p.phase*1000)*#params.colors)+1\t\t\t\r\n\t\tpix(p.x,p.y,params.colors[c] or 0)\r\n\t\t\r\n\tend\r\nend\r\n\r\n-- Draws a line between the particle's previous and current position, kind of \"motion blur\" effect\r\n-- params:\r\n-- colors array - indexes to the palette, the particle goes trough these in order trough it's lifetime\r\nfunction draw_ps_streak(ps, params)\r\n\tfor key,p in pairs(ps.particles) do\r\n\t\t--c = math.floor(p.phase*#params.colors)+1\r\n\t\tc = math.floor(lerp(0,1,p.phase*1000)*#params.colors)+1\t\t\t\r\n\t\tline(p.x,p.y,p.x-p.vx,p.y-p.vy,params.colors[c] or 0)\t\t\r\n\tend\r\nend\r\n\r\n-- Animates trough the given frames with the given speed\r\n-- params:\r\n-- frames array - indexes to sprite tiles\r\nfunction draw_ps_animspr(ps, params)\r\n\tparams.currframe = params.currframe + params.speed\r\n\tif (params.currframe>#params.frames) then\r\n\t\tparams.currframe = 1\r\n\tend\r\n\tfor key,p in pairs(ps.particles) do\r\n\t\t-- pal(7,params.colors[math.floor(p.endsize)])\r\n\t\tspr(params.frames[math.floor(params.currframe+p.startsize)%#params.frames],p.x,p.y,0,0)\r\n\tend\r\n\t-- pal()\r\nend\r\n\r\n-- Maps the given frames to the life of the particle\r\n-- params:\r\n-- frames array - indexes to sprite tiles\r\nfunction draw_ps_agespr(ps, params)\r\n\t\r\n\tfor key,p in pairs(ps.particles) do\r\n\t\t--local f = math.floor(p.phase*#params.frames)+1\r\n\t\tlocal f = math.floor(#params.frames*(p.phase*1000))+1\r\n\t\t\r\n\t\tspr(params.frames[f],p.x,p.y,0,0)\r\n\tend\r\nend\r\n\r\n-- Each particle is randomly chosen from the given frames\r\n-- params:\r\n-- frames array - indexes to sprite tiles\r\nfunction draw_ps_rndspr(ps, params)\r\n\tfor key,p in pairs(ps.particles) do\r\n\t\t-- pal(7,params.colors[math.floor(p.endsize)])\r\n\t\tspr(params.frames[math.floor(p.startsize)],p.x,p.y,0,0)\r\n\tend\r\n\t-- pal()\r\nend\r\n\r\n\r\n--==================================================================================--\r\n-- SAMPLES PARTICLE SYSTEMS ========================================================--\r\n--==================================================================================--\r\nfunction make_bubbles_ps()\r\n\tlocal ps = make_psystem(500,3000, 1,9,0.5,0.5)\r\n\t\r\n\tps.autoremove = false\r\n\ttable.insert(ps.emittimers,\r\n\t\t{\r\n\t\t\ttimerfunc = emittimer_constant,\r\n\t\t\tparams = {nextemittime = time(), speed = 0.2}\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.emitters, \r\n\t\t{\r\n\t\t\temitfunc = emitter_box,\r\n\t\t\tparams = { minx = 0, maxx = 240, miny = 100, maxy= 110, minstartvx = 0, maxstartvx = 0, minstartvy = -1.50, maxstartvy=-0.2 }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.drawfuncs,\r\n\t\t{\r\n\t\t\tdrawfunc = draw_ps_agespr,\r\n\t\t\tparams = { frames = {16,16,17,17,17,18,18,18,18,18,18,18,18,18,18,19} }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.affectors,\r\n\t\t{ \r\n\t\t\taffectfunc = affect_orbit,\r\n\t\t\tparams = { phase = 0, speed = 0.001, xstrength = 0.5, ystrength = 0 }\r\n\t\t}\r\n\t)\r\nend\r\n\r\nfunction make_magicsparks_ps(ex,ey)\r\n\tlocal ps = make_psystem(300,1700, 1,5,1,5)\r\n\t\r\n\ttable.insert(ps.emittimers,\r\n\t\t{\r\n\t\t\ttimerfunc = emittimer_burst,\r\n\t\t\tparams = { num = 10}\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.emitters, \r\n\t\t{\r\n\t\t\temitfunc = emitter_box,\r\n\t\t\tparams = { minx = ex-8, maxx = ex+8, miny = ey-8, maxy= ey+8, minstartvx = -1.5, maxstartvx = 1.5, minstartvy = -3, maxstartvy=-2 }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.drawfuncs,\r\n\t\t{\r\n\t\t\tdrawfunc = draw_ps_rndspr,\r\n\t\t\tparams = { frames = {32,33,34,35,36} }\r\n\t\t\t-- params = { frames = {32,33,34,35,36}, colors = {8,9,11,12,14} }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.affectors,\r\n\t\t{ \r\n\t\t\taffectfunc = affect_force,\r\n\t\t\tparams = { fx = 0, fy = 0.3 }\r\n\t\t}\r\n\t)\r\n\r\nend\r\n\r\nfunction make_butterflies_ps(ex,ey)\r\n\tlocal ps = make_psystem(2000,3000, 1,9,1,5)\r\n\t\r\n\ttable.insert(ps.emittimers,\r\n\t\t{\r\n\t\t\ttimerfunc = emittimer_burst,\r\n\t\t\tparams = { num = 10}\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.emitters, \r\n\t\t{\r\n\t\t\temitfunc = emitter_box,\r\n\t\t\tparams = { minx = ex-16, maxx = ex+16, miny = ey-8, maxy= ey+8, minstartvx = 0, maxstartvx = 0, minstartvy = -1, maxstartvy= -0.5 }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.drawfuncs,\r\n\t\t{\r\n\t\t\tdrawfunc = draw_ps_animspr,\r\n\t\t\tparams = { frames = {22,23,24,23}, speed = 0.2, currframe = 1 }\r\n\t\t\t-- params = { frames = {22,23,24,23}, speed = 0.5, colors = {8,9,11,12,14}, currframe = 1 }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.affectors,\r\n\t\t{ \r\n\t\t\taffectfunc = affect_forcezone,\r\n\t\t\tparams = { fx = -0.05, fy = 0.0, zoneminx = 64, zonemaxx = 127, zoneminy = 64, zonemaxy = 100 }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.affectors,\r\n\t\t{ \r\n\t\t\taffectfunc = affect_forcezone,\r\n\t\t\tparams = { fx = 0.05, fy = 0.0, zoneminx = 0, zonemaxx = 64, zoneminy = 30, zonemaxy = 70 }\r\n\t\t}\r\n\t)\r\nend\r\n\r\nfunction make_3dwarp_ps()\r\n\tlocal ps = make_psystem(1000,2000, 1,2,0.5,0.5)\r\n\tps.autoremove = false\r\n\ttable.insert(ps.emittimers,\r\n\t\t{\r\n\t\t\ttimerfunc = emittimer_constant,\r\n\t\t\tparams = {nextemittime = time(), speed = 0.001}\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.emitters, \r\n\t\t{\r\n\t\t\temitfunc = emitter_box,\r\n\t\t\tparams = { minx = 118, maxx = 122, miny = 63, maxy= 67, minstartvx = 0, maxstartvx = 0, minstartvy = 0, maxstartvy=0 }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.affectors, \r\n\t\t{\r\n\t\t\taffectfunc = affect_attract,\r\n\t\t\tparams = { x = 120, y = 65, mradius = 64, strength = 0.01 }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.drawfuncs,\r\n\t\t{\r\n\t\t\tdrawfunc = draw_ps_streak,\r\n\t\t\tparams = { colors = {2,2,2,2,2,1,1,1,1,1,10,15,1,10,10,10,15,10,10,15,10,15,15} }\r\n\t\t}\r\n\t)\r\nend\r\n\r\nfunction make_starfield_ps()\r\n\tlocal ps = make_psystem(4000,6000, 1,2,0.5,0.5)\r\n\tps.autoremove = false\r\n\ttable.insert(ps.emittimers,\r\n\t\t{\r\n\t\t\ttimerfunc = emittimer_constant,\r\n\t\t\tparams = {nextemittime = time(), speed = 0.01}\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.emitters, \r\n\t\t{\r\n\t\t\temitfunc = emitter_box,\r\n\t\t\tparams = { minx = 235, maxx = 240, miny = 0, maxy= 136, minstartvx = -2.0, maxstartvx = -0.5, minstartvy = 0, maxstartvy=0 }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.drawfuncs,\r\n\t\t{\r\n\t\t\tdrawfunc = draw_ps_pixel,\r\n\t\t\tparams = { colors = {15,10,15,10,15,10,10,15,10,15,15,10,10,15} }\r\n\t\t}\r\n\t)\r\nend\r\n\r\nfunction make_waterfall_ps(ex,ey)\r\n\tlocal ps = make_psystem(1500,2000, 1,2,0.5,0.5)\r\n\tps.autoremove = false\r\n\ttable.insert(ps.emittimers,\r\n\t\t{\r\n\t\t\ttimerfunc = emittimer_constant,\r\n\t\t\tparams = {nextemittime = time(), speed = 0.01}\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.emitters, \r\n\t\t{\r\n\t\t\temitfunc = emitter_box,\r\n\t\t\tparams = { minx = ex-8, maxx = ex+8, miny = ey, maxy= ey+1, minstartvx = -0.5, maxstartvx = 0.5, minstartvy = 0, maxstartvy=0 }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.drawfuncs,\r\n\t\t{\r\n\t\t\tdrawfunc = draw_ps_streak,\r\n\t\t\tparams = { colors = {15,13,2,13,13,2,13,2,2,15,15,15} }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.affectors,\r\n\t\t{ \r\n\t\t\taffectfunc = affect_force,\r\n\t\t\tparams = { fx = 0, fy = 0.3 }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.affectors,\r\n\t\t{ \r\n\t\t\taffectfunc = affect_bouncezone,\r\n\t\t\tparams = { damping = 0.2, zoneminx = 40, zonemaxx = 200, zoneminy = 100, zonemaxy = 136 }\r\n\t\t}\r\n\t)\r\nend\r\n\r\nfunction make_blood_ps(ex,ey)\r\n\tlocal ps = make_psystem(2000,3000, 1,2,0.5,0.5)\r\n\t\r\n\ttable.insert(ps.emittimers,\r\n\t\t{\r\n\t\t\ttimerfunc = emittimer_burst,\r\n\t\t\tparams = { num = 30}\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.emitters, \r\n\t\t{\r\n\t\t\temitfunc = emitter_point,\r\n\t\t\tparams = { x = ex, y = ey, minstartvx = 1, maxstartvx = 3, minstartvy = -3, maxstartvy=-2 }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.drawfuncs,\r\n\t\t{\r\n\t\t\tdrawfunc = draw_ps_pixel,\r\n\t\t\tparams = { colors = {6} }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.affectors,\r\n\t\t{ \r\n\t\t\taffectfunc = affect_force,\r\n\t\t\tparams = { fx = 0, fy = 0.15 }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.affectors,\r\n\t\t{ \r\n\t\t\taffectfunc = affect_stopzone,\r\n\t\t\tparams = { zoneminx = 0, zonemaxx = 240, zoneminy = 100, zonemaxy = 127 }\r\n\t\t}\r\n\t)\r\nend\r\n\r\nfunction make_sparks_ps(ex,ey)\r\n\tlocal ps = make_psystem(300,700, 1,2, 0.5,0.5)\r\n\r\n\ttable.insert(ps.emittimers,\r\n\t\t{\r\n\t\t\ttimerfunc = emittimer_burst,\r\n\t\t\tparams = { num = 10 }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.emitters,\r\n\t\t{\r\n\t\t\temitfunc = emitter_point,\r\n\t\t\tparams = { x = ex, y = ey, minstartvx = -1.5, maxstartvx = 1.5, minstartvy = -3, maxstartvy=-2 }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.drawfuncs,\r\n\t\t{\r\n\t\t\tdrawfunc = draw_ps_fillcirc,\r\n\t\t\tparams = { colors = {15,14,12,9,4,3} }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.affectors,\r\n\t\t{\r\n\t\t\taffectfunc = affect_force,\r\n\t\t\tparams = { fx = 0, fy = 0.3 }\r\n\t\t}\r\n\t)\r\nend\r\n\r\nfunction make_explosparks_ps(ex,ey)\r\n\tlocal ps = make_psystem(300,700, 1,2,0.5,0.5)\r\n\t\r\n\ttable.insert(ps.emittimers,\r\n\t\t{\r\n\t\t\ttimerfunc = emittimer_burst,\r\n\t\t\tparams = { num = 10}\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.emitters, \r\n\t\t{\r\n\t\t\temitfunc = emitter_point,\r\n\t\t\tparams = { x = ex, y = ey, minstartvx = -1.5, maxstartvx = 1.5, minstartvy = -1.5, maxstartvy=1.5 }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.drawfuncs,\r\n\t\t{\r\n\t\t\tdrawfunc = draw_ps_pixel,\r\n\t\t\tparams = { colors = {12,10,1,4,1,2} }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.affectors,\r\n\t\t{ \r\n\t\t\taffectfunc = affect_force,\r\n\t\t\tparams = { fx = 0, fy = 0.1 }\r\n\t\t}\r\n\t)\r\nend\r\n\r\nfunction make_explosion_ps(ex,ey)\r\n\tlocal ps = make_psystem(100,500, 9,14,1,3)\r\n\t\r\n\ttable.insert(ps.emittimers,\r\n\t\t{\r\n\t\t\ttimerfunc = emittimer_burst,\r\n\t\t\tparams = { num = 4 }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.emitters, \r\n\t\t{\r\n\t\t\temitfunc = emitter_box,\r\n\t\t\tparams = { minx = ex-4, maxx = ex+4, miny = ey-4, maxy= ey+4, minstartvx = 0, maxstartvx = 0, minstartvy = 0, maxstartvy=0 }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.drawfuncs,\r\n\t\t{\r\n\t\t\tdrawfunc = draw_ps_fillcirc,\r\n\t\t\tparams = { colors = {15,0,14,9,9,4} }\r\n\t\t}\r\n\t)\r\nend\r\n\r\nfunction make_smoke_ps(ex,ey)\r\n\tlocal ps = make_psystem(200,2000, 1,3, 6,9)\r\n\t\r\n\tps.autoremove = false\r\n\r\n\ttable.insert(ps.emittimers,\r\n\t\t{\r\n\t\t\ttimerfunc = emittimer_constant,\r\n\t\t\tparams = {nextemittime = time(), speed = 0.2}\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.emitters, \r\n\t\t{\r\n\t\t\temitfunc = emitter_box,\r\n\t\t\tparams = { minx = ex-4, maxx = ex+4, miny = ey, maxy= ey+2, minstartvx = 0, maxstartvx = 0, minstartvy = 0, maxstartvy=0 }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.drawfuncs,\r\n\t\t{\r\n\t\t\tdrawfunc = draw_ps_fillcirc,\r\n\t\t\tparams = { colors = {1,3,2} }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.affectors,\r\n\t\t{ \r\n\t\t\taffectfunc = affect_force,\r\n\t\t\tparams = { fx = 0.003, fy = -0.009 }\r\n\t\t}\r\n\t)\r\nend\r\n\r\nfunction make_explosmoke_ps(ex,ey)\r\n\tlocal ps = make_psystem(1500,2000, 5,8, 17,18)\r\n\r\n\ttable.insert(ps.emittimers,\r\n\t\t{\r\n\t\t\ttimerfunc = emittimer_burst,\r\n\t\t\tparams = { num = 1 }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.emitters, \r\n\t\t{\r\n\t\t\temitfunc = emitter_point,\r\n\t\t\tparams = { x = ex, y = ey, minstartvx = 0, maxstartvx = 0, minstartvy = 0, maxstartvy=0 }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.drawfuncs,\r\n\t\t{\r\n\t\t\tdrawfunc = draw_ps_fillcirc,\r\n\t\t\tparams = { colors = {2} }\r\n\t\t}\r\n\t)\r\n\ttable.insert(ps.affectors,\r\n\t\t{ \r\n\t\t\taffectfunc = affect_force,\r\n\t\t\tparams = { fx = 0.003, fy = -0.01 }\r\n\t\t}\r\n\t)\r\nend\r\n\r\n--==================================================================================--\r\n-- DEMOS ===========================================================================--\r\n--==================================================================================--\r\n\r\nfunction sparks_demo()\r\n\tmake_sparks_ps(frnd(220)+10,frnd(116)+10)\r\nend\r\n\r\nfunction explo_demo()\r\n\tmake_explosion_ps(frnd(220)+10,frnd(116)+10)\r\nend\r\n\r\nfunction richexplo_demo()\r\n\tlocal rx = frnd(220)+10\r\n\tlocal ry = frnd(116)+10\r\n\tmake_explosmoke_ps(rx,ry)\r\n\tmake_explosparks_ps(rx,ry)\r\n\tmake_explosion_ps(rx,ry)\r\nend\r\n\r\nfunction blood_demo()\r\n\tmake_blood_ps(frnd(64),frnd(90)+10)\r\nend\r\n\r\nfunction smoke_demo()\r\n\tmake_smoke_ps(frnd(220)+10,frnd(90)+10)\r\nend\r\n\r\nfunction waterfall_demo()\r\n\tmake_waterfall_ps(frnd(220)+10,frnd(50)+10)\r\nend\r\n\r\nfunction starfield_demo()\r\n\tmake_starfield_ps()\r\nend\r\n\r\nfunction warp_demo()\r\n\tmake_3dwarp_ps()\r\nend\r\n\r\nfunction magicsparks_demo()\r\n\tmake_magicsparks_ps(frnd(220)+10,frnd(116)+10)\r\nend\r\n\r\nfunction butterflies_demo()\r\n\tmake_butterflies_ps(frnd(220)+10,frnd(54)+64)\r\nend\r\n\r\nfunction bubbles_demo()\r\n\tmake_bubbles_ps()\r\nend\r\n\r\ndemos = {\r\n\t{name = \"sparks\", desc = \"\", createfunc = sparks_demo },\r\n\t{name = \"explosion\", desc = \"\", createfunc = explo_demo },\r\n\t{name = \"rich explosion\", createfunc = richexplo_demo, desc = \"multiple particle systems\" },\r\n\t{name = \"blood\", createfunc = blood_demo, desc = \"stopzone affector\" },\r\n\t{name = \"smoke\", createfunc = smoke_demo, desc = \"continuos particle system\" },\r\n\t{name = \"waterfall\", createfunc = waterfall_demo, desc = \"streak draw bouncezone affector\" },\r\n\t{name = \"starfield\", createfunc = starfield_demo, desc = \"\" },\r\n\t{name = \"3d warp\", createfunc = warp_demo, desc = \"attract affector\" },\r\n\t{name = \"magic sparks\", createfunc = magicsparks_demo, desc = \"rndspr\" },\r\n\t{name = \"bubbles\", createfunc = bubbles_demo, desc = \"agespr, orbit affector\" },\r\n\t{name = \"butterflies\", createfunc = butterflies_demo, desc = \"animspr, forcezone affector\" },\r\n}\r\ncurrdemo = 1\r\n\r\n\r\n--==================================================================================--\r\n-- INIT ============================================================================--\r\n--==================================================================================--\r\n\r\nfunction deleteallps()\r\n\tfor key,ps in pairs(particle_systems) do\r\n\t\tparticle_systems[key] = nil\r\n\tend\r\nend\r\n\r\n\r\n\r\n\r\nfunction OnStart()\r\n\tDisplay:TargetFrameRate(60) \r\n\tdemos[currdemo].createfunc()\r\n\tSetPalette(DB16)\r\nend\r\n\r\nfunction OnUpdate(deltaTime)\r\n\tif btnp(3) then\r\n\t\tcurrdemo = currdemo + 1\r\n\t\tif (currdemo>#demos) then\r\n\t\t \tcurrdemo = 1\r\n\t\t end \r\n\t\t deleteallps()\r\n\t\t demos[currdemo].createfunc()\r\n\tend\r\n\tif btnp(2) then\r\n\t\tcurrdemo = currdemo - 1\r\n\t\tif (currdemo<=0) then\r\n\t\t \tcurrdemo = #demos\r\n\t\t end \r\n\t\t deleteallps()\r\n\t\t demos[currdemo].createfunc()\r\n\tend\r\n\tif btnp(5) then\r\n\t\tdemos[currdemo].createfunc()\r\n\tend\r\n\r\n\tupdate_psystems()\r\n\t\r\n\tcls(0)\r\n\t\r\n\tdraw_psystems()\r\n\r\n\tprint(demos[currdemo].name,0,0,7)\r\n\tprint(demos[currdemo].desc,0,8,7)\r\n\tprint(\"left/right to change demo\", 0, Display:Height()-8, 5)\r\n\tprint(\"x to spawn particle system\",0,Display:Height()-16,5)\r\n\r\n\r\n\tDisplay:Flip()\r\nend\r\n\r\nfunction OnClose()\r\nend\r\n\t\t        ",
+  "include": []
+}

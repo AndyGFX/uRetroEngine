@@ -213,6 +213,16 @@ namespace uRetroEngine
         }
 
         /// <summary>
+        /// Return sprite color id as 1D array
+        /// </summary>
+        /// <param name="ID">sprite id</param>
+        /// <returns></returns>
+        public byte[] GetPixels(int ID)
+        {
+            return uRetroSprites.GetPixels(ID);
+        }
+
+        /// <summary>
         /// [Sprites:Store] Store pixels data of sprite table
         /// </summary>
         /// <param name="id">sprite id</param>
@@ -343,6 +353,11 @@ namespace uRetroEngine
         public byte GetPixel(int x, int y)
         {
             return uRetroGraphics.GetPixel(x, y);
+        }
+
+        public void DrawPixels(int x, int y, int width, byte[] pixels)
+        {
+            uRetroGraphics.DrawPixels(x, y, width, pixels);
         }
 
         /// <summary>

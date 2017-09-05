@@ -1,3 +1,9 @@
+# uRetroEngine
+
+Is a framework for create retro style game in Unity or outside via uRetroEngine build with LUA interpreter (NLua for Unity).
+
+# Buil-in LUA commands
+
 
 ## DISPLAY
 
@@ -9,7 +15,12 @@
 	Display:Clear(color) - clear screen with defined color id
 	Display:Clip(x, y, width, height) - Set clipping screen size
 	Display:PixelSize(size) - set pixel size (1,2,4)
+	Display:CallScanline(state) - enable/disable scanline callback to lua script
 
+## CAPTURE
+
+	Capture:Setup(filename, framerate, downscale, time, bilinear) - setup capture properties and save to config
+	Capture:Start() - start screen capturing to gif. Result is saved to game catridge folder
     
 ## SPRITES
 	
@@ -19,7 +30,7 @@
 	Sprites:Store(ID) - store pixels data of sprite table (internal copy of sprite)
 	Sprites:Restore(ID) -  restore pixels data back to sprite table
 	Sprites:FlipSprite(ID, flipY, flipY) - Flip sprite in sprite table
-
+	Sprites:GetPixels(ID) - return sprite pixel data as 1D array
 ## GRAPHICS
 
 	Graphics:PutPixel(x, y, color) - Put pixel to screen
@@ -27,6 +38,7 @@
 	Graphics:DrawLine(x1, y1, x2, y2, color) - Draw line to screen in defined color
 	Graphics:DrawCircle(x0, y0, radius, color, filled) - Draw circle
 	Graphics:DrawRectangle(x0, y0, x1, y1, color, filled) - Draw rectangle
+	Graphics:DrawPixels(x,y,width, byte[]) - Draw user defined color array with defined width
 
 ## TEXT
 
@@ -46,11 +58,14 @@
 	Colors:Get(ID) - get color from palette at idx ID as Color32 type
 	Colors:GetAsHex(ID) - get color from palette at ID as HEX string (retrun color in format #ffrrggbb)
 	Colors:SetFromHex(id, hexColor) - set color in palette at ID ( #ffrrggbb/ffrrggbb)
+	Colors:Restore() - restore color palette to color from startup
+
 
 ## SYSTEM
 
 	System:ShowFPS(state) - show FPS and redering performance graph CPU/GPU
 	System:TimeSinceStart()  - retrun time from app start
+	System:RootPath() - return absolut path to application
 
 ## TILEMAP
 
@@ -106,7 +121,8 @@
 
 ## UTILS
 
-	not yet implemented
+	Utils:CodeProfilerStart(label) - start code profiler with <label>
+	Utils:CodeProfilerEnd(label) - end code profiler with <label>
 
 ## CONSOLE
 
@@ -138,3 +154,52 @@
 	GameData:GetString(name) - Get string value from variable name
 	GameData:Save() - Save game data in json format to uRetroEngine persistent data path with name <cartridgename.gamedata>
 	GameData:Load() - Load game data in json format to uRetroEngine from persistent data path with name <cartridgename>.gamedata
+
+## LIBRARY
+
+	Library:Require(filename) - load lua file from Libs folder
+	Library:Include(filename) - execute lua file in cartridge working folder before main.lua. All file included with this command will be a included to cartridge to.
+
+# Config
+
+## File: config.json
+
+* cartridgesFolder: uRetroEngine_Cards 
+* cartridgeName: Template 
+* fileFont: uRE_Font.png 
+* fileColors: uRE_Colors.png 
+* fileSprites: uRE_Sprites.png 
+* fileTilemap: uRE_Tilemap.json 
+* chars:  !\#$%&'()*+ -./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~  
+* charSpacing: 8 
+* screen_width: 256 
+* screen_height: 240 
+* flipScreenY: false 
+* sprite_width: 8 
+* sprite_height: 8 
+* tilemap_width: 32 
+* tilemap_height: 32 
+* tilemap_layers: 2 
+* max_colors: 16 
+* KeyCode_UP: 273 
+* KeyCode_DOWN: 274 
+* KeyCode_RIGHT: 275 
+* KeyCode_LEFT: 276 
+* KeyCode_A: 122 
+* KeyCode_B: 120 
+* KeyCode_X: 97 
+* KeyCode_Y: 115 
+* KeyCode_START: 13 
+* KeyCode_OPTION: 27
+
+
+# MAIN.lua
+
+## Callbacks
+
+	OnStart() - called when app start
+	OnUpdate(deltaTime) - called on update and return delta time
+	OnScanline(line) - called before backbuffer write screen line to VRAM (impact on performance )
+	OnClose() - called when application is closed
+
+

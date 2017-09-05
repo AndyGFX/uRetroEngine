@@ -213,18 +213,19 @@ namespace uRetroEngine
 
             for (int p = 0; p < pixels.Length; p++)
             {
-                if (px >= width)
+                if (py >= width)
                 {
-                    px = 0;
-                    py++;
+                    py = 0;
+                    px++;
                 }
 
                 if (pixels[p] != 0)
                 {
-                    PutPixel(x + px, (height - 1 + y) - py, pixels[p]);
+                    //PutPixel(x + px, (height - 1 + y) + py - (height - 1), pixels[p]);
+                    PutPixel(x + px, y + py, pixels[p]);
                 }
 
-                px++;
+                py++;
             }
         }
     }
