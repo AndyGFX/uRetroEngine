@@ -2,9 +2,7 @@
 *.sln
 *.booproj
 Library/
-_Build_/uRetroEngine_Cards/
 _Build_/uRetroEngine_Data/
-_Build_/uRetroEngine_Libs/
 _Build_/*.exe
 Temp/
 *.userprefs
