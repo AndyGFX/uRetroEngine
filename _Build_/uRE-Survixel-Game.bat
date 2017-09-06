@@ -1,0 +1,1 @@
+uRetroEngine.exe -game Survixel -resolution 1024 720 false
