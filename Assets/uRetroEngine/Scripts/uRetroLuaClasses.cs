@@ -676,9 +676,9 @@ namespace uRetroEngine
         /// </summary>
         /// <param name="w">colums count</param>
         /// <param name="h">rows count</param>
-        public void Create(int w, int h)
+        public void Create(int w, int h, int l)
         {
-            uRetroTilemap.CreateTilemap(w, h);
+            uRetroTilemap.CreateTilemap(w, h, l);
         }
 
         /// <summary>

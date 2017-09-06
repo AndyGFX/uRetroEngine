@@ -63,12 +63,13 @@ namespace uRetroEngine
         /// </summary>
         /// <param name="w">columns count</param>
         /// <param name="h">rows count</param>
-        public static void CreateTilemap(int w, int h)
+        public static void CreateTilemap(int w, int h, int l)
 
         {
             layers = new List<TilemapLayer>();
             uRetroConfig.tilemap_width = w;
             uRetroConfig.tilemap_height = h;
+            uRetroConfig.tilemap_layers = l;
             for (int i = 0; i < uRetroConfig.tilemap_layers; i++)
             {
                 TilemapLayer layer = new TilemapLayer();
@@ -281,7 +282,7 @@ namespace uRetroEngine
             tilemap = JsonConvert.DeserializeObject<PyxelEditTilemap>(json);
 
             uRetroConfig.tilemap_layers = tilemap.layers.Length;
-            uRetroTilemap.CreateTilemap(tilemap.tileswide, tilemap.tileshigh);
+            uRetroTilemap.CreateTilemap(tilemap.tileswide, tilemap.tileshigh, tilemap.layers.Length);
 
             for (int i = 0; i < tilemap.layers.Length; i++)
             {
