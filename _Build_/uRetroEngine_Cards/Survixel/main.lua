@@ -1,8 +1,19 @@
 
+Library:Require("class.lua")
+
+A=class()
+
+function A:Init(x)
+	self.x = x
+end	
+
 
 function OnStart()
 	Text:SetFont(0,0,6)
 	Text:SetFont(1,16*7,6)
+
+	A:Init(128);
+	print(tostring(A.x));
 end
 
 function OnUpdate(deltaTime)
