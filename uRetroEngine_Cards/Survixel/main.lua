@@ -1,19 +1,25 @@
 
 Library:Require("class.lua")
+Library:Require("TCellular.lua")
 
+cave = class(TCellular);
 
 function OnStart()
 
 	Text:SetFont(0,0,6)
 	Text:SetFont(1,16*7,6)
 
+	cave:Generate(128,64,0.6,3,5,5);
+	cave:Dump()
 end
 
 function OnUpdate(deltaTime)
 	Display:Clear(1)
 
 	DrawGameTitle()	
-	
+
+	cave:PreviewMap(0,0)
+		
 	Display:Flip()	
 end
 

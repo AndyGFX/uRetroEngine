@@ -2,9 +2,10 @@
 --Library:Include("test_scanline.lua")
 --Library:Include("test_graphics.lua")
 --Library:Include("test_text.lua")
-Library:Include("test_tilemap.lua")
+--Library:Include("test_tilemap.lua")
 --Library:Include("test_stress.lua")
 --Library:Include("test_sprites.lua")
+Library:Include("test_pixel_stress.lua")
 
 function OnStart()
 	_start()
