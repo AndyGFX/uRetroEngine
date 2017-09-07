@@ -197,7 +197,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(DrawPixels|GetPixels|Setup|Start|CodeProfilerStart|CodeProfilerEnd|Require|Include|SetFont|Font|TargetFrameRate|Width|Height|Flip|Clear|Clip|PixelSize|DrawSprite|SetPixel|GetPixel|Store|Restore|FlipSprite|PutPixel|GetPixel|DrawLine|DrawCircle|DrawRectangle|Draw|Add|Remove|Play|Stop|Set|Get|GetAsHex|SetFromHex|Restore|ShowFPS|TimeSinceStart|RootPath|LayersCount|Create|SetTile|DrawTilemap|DrawLayer|GetTileID|GetTileFlag|ImportTilemap|ImportCollisionMap|Save|Load|Show|Hide|SwitchVisibility|Print|ButtonDown|ButtonPressed|ButtonUp|MouseX|MouseY|MouseButtonDown|MouseButtonHold|MouseButtonUp|IsInside|SetInt|GetInt|SetFloat|GetFloat|SetString|GetString)\b</string>
+			<string>\b(PrintError|DrawPixels|GetPixels|Setup|Start|CodeProfilerStart|CodeProfilerEnd|Require|Include|SetFont|Font|TargetFrameRate|Width|Height|Flip|Clear|Clip|PixelSize|DrawSprite|SetPixel|GetPixel|Store|Restore|FlipSprite|PutPixel|GetPixel|DrawLine|DrawCircle|DrawRectangle|Draw|Add|Remove|Play|Stop|Set|Get|GetAsHex|SetFromHex|Restore|ShowFPS|TimeSinceStart|RootPath|LayersCount|Create|SetTile|DrawTilemap|DrawLayer|GetTileID|GetTileFlag|ImportTilemap|ImportCollisionMap|Save|Load|Show|Hide|SwitchVisibility|Print|ButtonDown|ButtonPressed|ButtonUp|MouseX|MouseY|MouseButtonDown|MouseButtonHold|MouseButtonUp|IsInside|SetInt|GetInt|SetFloat|GetFloat|SetString|GetString)\b</string>
 			<key>name</key>
 			<string>variable.language.self.lua</string>
 		</dict>

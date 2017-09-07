@@ -866,27 +866,18 @@ namespace uRetroEngine
         /// [Console:Print] print string value to console
         /// </summary>
         /// <param name="value">string value</param>
-        public void Print(string value)
+        public void Print(System.Object value)
         {
             uRetroConsole.Print(value);
         }
 
         /// <summary>
-        /// [Console:Print] print float value to console
+        /// [Console:Print] print value to console as error msg
         /// </summary>
-        /// <param name="value">float value</param>
-        public void Print(float value)
+        /// <param name="value">string value</param>
+        public void PrintError(System.Object value)
         {
-            uRetroConsole.Print(value);
-        }
-
-        /// <summary>
-        /// [Console:Print] print int value to console
-        /// </summary>
-        /// <param name="value">int value</param>
-        public void Print(int value)
-        {
-            uRetroConsole.Print(value);
+            uRetroConsole.PrintError(value);
         }
 
         /// <summary>

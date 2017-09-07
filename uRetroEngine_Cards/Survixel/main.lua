@@ -1,8 +1,12 @@
 
+Library:Require("class.lua")
+
 
 function OnStart()
+
 	Text:SetFont(0,0,6)
 	Text:SetFont(1,16*7,6)
+
 end
 
 function OnUpdate(deltaTime)

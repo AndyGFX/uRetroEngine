@@ -35,17 +35,17 @@ namespace uRetroEngine
             console.SetActive(visible);
         }
 
-        public static void Print(string txt)
+        public static void Print(System.Object txt)
         {
             PrintText(txt);
         }
 
-        public static void DebugLog(string txt)
+        public static void DebugLog(System.Object obj)
         {
-            Debug.Log(txt);
+            Debug.Log(obj);
         }
 
-        public static void PrintError(string txt)
+        public static void PrintError(System.Object txt)
         {
             PrintErrorText(txt);
         }
@@ -65,14 +65,14 @@ namespace uRetroEngine
             DebugLogs.Instance.ClearLogs();
         }
 
-        private static void PrintText(string txt)
+        private static void PrintText(System.Object txt)
         {
             Debug.Log("<color=orange>u</color><color=white>Retro</color><color=orange>Engine: </color>" + txt);
         }
 
-        private static void PrintErrorText(string txt)
+        private static void PrintErrorText(System.Object txt)
         {
-            Debug.Log("<color=orange>u</color><color=white>Retro</color><color=orange>Engine: </color><color=red>" + txt + "</color>");
+            Debug.Log("<color=orange>u</color><color=white>Retro</color><color=orange>Engine </color><color=red>ERROR: " + txt + "</color>");
         }
     }
 }
