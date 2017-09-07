@@ -118,7 +118,7 @@ namespace uRetroEngine
                     }
                     else
                     {
-                        backBuffer[idx] = (Color)uRetroColors.colors[uRetroVRAM.buffer[idx]];
+                        backBuffer[idx] = uRetroColors.colors[uRetroVRAM.buffer[idx]];
                     }
                     idx++;
                 }

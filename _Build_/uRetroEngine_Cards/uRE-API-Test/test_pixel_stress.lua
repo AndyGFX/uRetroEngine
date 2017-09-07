@@ -25,7 +25,7 @@ end
 
 function _draw( ... )
 
-	Utils:CodeProfilerStart("Draw()")
+	
 
 	Utils:CodeProfilerStart("Clear()")
 	Display:Clear(3)
@@ -46,7 +46,7 @@ function _draw( ... )
 	Display:Flip()	
 	Utils:CodeProfilerEnd("Flip()")
 
-	Utils:CodeProfilerEnd("Draw()")
+	
 end
 function _close( ... )
 	-- body

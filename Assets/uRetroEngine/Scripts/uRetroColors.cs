@@ -6,8 +6,8 @@ namespace uRetroEngine
 {
     public static class uRetroColors
     {
-        public static Color32[] colors = new Color32[1];
-        public static Color32[] _backupColors = new Color32[1];
+        public static Color[] colors = new Color[1];
+        public static Color[] _backupColors = new Color[1];
 
         /// <summary>
         /// Create Retro palette from image
@@ -16,28 +16,13 @@ namespace uRetroEngine
         /// <param name="palette">image color palette</param>
         public static void CreatePalette(Texture2D palette)
         {
-            /*
-            colors = new Color32[palette.GetPixels().Length];
-            _backupColors = new Color32[palette.GetPixels().Length];
-
-            int i = 0;
-            for (int x = 0; x < palette.width; x++)
-            {
-                for (int y = palette.height - 1; y >= 0; y--)
-                {
-                    colors[i] = (Color32)palette.GetPixel(x, y);
-                    _backupColors[i++] = (Color32)palette.GetPixel(x, y);
-                }
-            }
-            */
-
-            colors = new Color32[uRetroConfig.max_colors];
-            _backupColors = new Color32[uRetroConfig.max_colors];
+            colors = new Color[uRetroConfig.max_colors];
+            _backupColors = new Color[uRetroConfig.max_colors];
 
             for (int x = 0; x < palette.width; x++)
             {
-                colors[x] = (Color32)palette.GetPixel(x, 0);
-                _backupColors[x] = (Color32)palette.GetPixel(x, 0);
+                colors[x] = palette.GetPixel(x, 0);
+                _backupColors[x] = palette.GetPixel(x, 0);
             }
         }
 
@@ -62,7 +47,7 @@ namespace uRetroEngine
 
         public static void Set(byte ID, byte r, byte g, byte b, byte a)
         {
-            colors[ID] = new Color32(r, g, b, a);
+            colors[ID] = (Color)(new Color32(r, g, b, a));
         }
 
         public static Color32 Get(byte ID)
@@ -106,10 +91,10 @@ namespace uRetroEngine
 
         public static void CreateFromHex(string[] palette)
         {
-            colors = new Color32[palette.Length];
+            colors = new Color[palette.Length];
             for (int i = 0; i < palette.Length; i++)
             {
-                colors[i] = uRetroUtils.HexToColor32(palette[i]);
+                colors[i] = uRetroUtils.HexToColor(palette[i]);
             }
         }
     }
