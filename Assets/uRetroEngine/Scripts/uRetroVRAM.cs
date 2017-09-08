@@ -50,15 +50,21 @@ namespace uRetroEngine
                 {
                     for (int py = 0; py < uRetroDisplay.pixelSizeY; py++)
                     {
-                        idx = uRetroUtils.ScreenPositionToIndex(nx + px, uRetroUtils.FlipPixelY(ny + py));
-                        uRetroVRAM.buffer[idx] = color;
+	                    //idx = uRetroUtils.ScreenPositionToIndex(nx + px, uRetroUtils.FlipPixelY(ny + py));
+	                    //uRetroVRAM.buffer[idx] = color;
+	                    uRetroVRAM.buffer[(nx+px) + uRetroUtils.FlipPixelY(ny+py) * uRetroConfig.screen_width] = color;
                     }
                 }
             }
             else
             {
-                idx = uRetroUtils.ScreenPositionToIndex(nx + 0, uRetroUtils.FlipPixelY(ny + 0));
-                uRetroVRAM.buffer[idx] = color;
+            	
+	            //idx = uRetroUtils.ScreenPositionToIndex(nx + 0, uRetroUtils.FlipPixelY(ny + 0));
+	            //uRetroVRAM.buffer[idx] = color;
+	            uRetroVRAM.buffer[nx + uRetroUtils.FlipPixelY(ny) * uRetroConfig.screen_width] = color;
+	            
+	            
+	            
             }
 
             changed = true;

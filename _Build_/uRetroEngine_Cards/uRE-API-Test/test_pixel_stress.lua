@@ -27,24 +27,24 @@ function _draw( ... )
 
 	
 
-	Utils:CodeProfilerStart("Clear()")
+	--Utils:CodeProfilerStart("Clear()")
 	Display:Clear(3)
-	Utils:CodeProfilerEnd("Clear()")
+	--Utils:CodeProfilerEnd("Clear()")
 
-	Utils:CodeProfilerStart("Pixels")
+	--Utils:CodeProfilerStart("Pixels")
 	for x=0,Display:Width() do
 		for y=0,Display:Height() do
 			Graphics:PutPixel(x,y,math.random(1,31))
 		end
 	end
-	Utils:CodeProfilerEnd("Pixels")
+	--Utils:CodeProfilerEnd("Pixels")
 
 	Text:Font(0)
 	Text:Draw(10,10,"Sprite API test ...",2)
 
-	Utils:CodeProfilerStart("Flip()")
+	--Utils:CodeProfilerStart("Flip()")
 	Display:Flip()	
-	Utils:CodeProfilerEnd("Flip()")
+	--Utils:CodeProfilerEnd("Flip()")
 
 	
 end

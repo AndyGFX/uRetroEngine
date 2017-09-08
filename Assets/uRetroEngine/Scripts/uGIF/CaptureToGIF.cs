@@ -38,7 +38,8 @@ namespace uRetroEngine
         }
 
         private void OnDestroy()
-        {
+	    {
+		    if (this.thread!=null)
             this.thread.Interrupt();
         }
 

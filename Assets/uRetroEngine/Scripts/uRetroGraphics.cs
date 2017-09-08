@@ -16,8 +16,10 @@ namespace uRetroEngine
         /// <param name="y"></param>
         /// <param name="color"></param>
         public static void PutPixel(int x, int y, byte color)
-        {
-            uRetroVRAM.Pixel(x, y, color);
+	    {
+		    
+		    uRetroVRAM.Pixel(x, y, color);
+		    
         }
 
         /// <summary>
@@ -28,7 +30,8 @@ namespace uRetroEngine
         /// <returns></returns>
         public static byte GetPixel(int x, int y)
         {
-            return uRetroVRAM.buffer[uRetroUtils.ScreenPositionToIndex(x, uRetroUtils.FlipPixelY(y))];
+	        return uRetroVRAM.buffer[uRetroUtils.ScreenPositionToIndex(x, uRetroUtils.FlipPixelY(y))];
+	        
         }
 
         /// <summary>
