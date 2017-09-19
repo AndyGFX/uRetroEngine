@@ -15,7 +15,8 @@ namespace uRetroEngine
         public float captureTime = 10;
         public bool useBilinearScaling = true;
         public string filename = "screenshot";
-
+        public GameObject recIcon;
+        public bool enableRecIcon = true;
         private Thread thread = null;
 
         [System.NonSerialized]
@@ -25,7 +26,8 @@ namespace uRetroEngine
         {
             period = 1f / frameRate;
             colorBuffer = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
-
+            if (this.recIcon == null) this.enableRecIcon = false;
+            this.recIcon.SetActive(false);
             startTime = Time.time;
         }
 
@@ -33,23 +35,26 @@ namespace uRetroEngine
         {
             bytes = null;
             this.thread = new Thread(_Encode);
+
             thread.Start();
             StartCoroutine(WaitForBytes());
         }
 
         private void OnDestroy()
-	    {
-		    if (this.thread!=null)
-            this.thread.Interrupt();
+        {
+            if (this.thread != null)
+                this.thread.Interrupt();
         }
 
         private IEnumerator WaitForBytes()
         {
+            if (this.enableRecIcon) this.recIcon.SetActive(false);
             while (bytes == null) yield return null;
-            System.IO.File.WriteAllBytes(uRetroSystem.GetRoot() + "/" + uRetroConfig.cartridgesFolder + "/" + uRetroConfig.cartridgeName + "/" + uRetroConfig.cartridgeName + "_" + this.filename + ".gif", bytes);
+            string path = uRetroSystem.GetRoot() + "/" + uRetroConfig.cartridgesFolder + "/" + uRetroConfig.cartridgeName + "/" + uRetroConfig.cartridgeName + "_" + this.filename + ".gif";
+            System.IO.File.WriteAllBytes(path, bytes);
             bytes = null;
             uRetroConsole.Show();
-            uRetroConsole.Print("GIF screenshot '" + this.filename + "' saved.");
+            uRetroConsole.Print("GIF screenshot '" + path + "' saved.");
         }
 
         public void _Encode()
@@ -95,6 +100,7 @@ namespace uRetroEngine
                     T = 0;
                     colorBuffer.ReadPixels(new Rect(0, 0, colorBuffer.width, colorBuffer.height), 0, 0, false);
                     frames.Add(new Image(colorBuffer));
+                    if (this.enableRecIcon) this.recIcon.SetActive(true);
                 }
                 if (Time.time > (startTime + captureTime))
                 {

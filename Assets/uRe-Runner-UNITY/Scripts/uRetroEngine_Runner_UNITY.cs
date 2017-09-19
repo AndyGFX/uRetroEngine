@@ -69,6 +69,7 @@ namespace uRetroEngine
             uRetroDisplay.Clear();
 
             if (Input.GetKeyDown(KeyCode.F1)) uRetroConsole.SwitchVisibility();
+            if (Input.GetKeyDown(KeyCode.F9)) uRetroCapture.Start();
             if (Input.GetKeyDown(KeyCode.F10)) uRetroSystem.SwitchFPSVisibility();
             if (Input.GetKeyDown(KeyCode.F11)) uRetroUtils.SwitchProfiler();
             if (Input.GetKeyDown(KeyCode.F12)) uRetroConfig.flipScreenY = !uRetroConfig.flipScreenY;
@@ -150,6 +151,8 @@ namespace uRetroEngine
             uRetroText.Draw(0, 30, "AndyGFX", 5);
 
             Test_DrawPixels_Draw();
+
+            PixelStressTest();
 
             uRetroDisplay.Flip();
         }
@@ -264,6 +267,17 @@ namespace uRetroEngine
                   };
 
             uRetroGraphics.DrawPixels(96, 96, 10, pixels);
+        }
+
+        public void PixelStressTest()
+        {
+            for (int x = 0; x < uRetroConfig.screen_width; x++)
+            {
+                for (int y = 0; y < uRetroConfig.screen_height; y++)
+                {
+                    uRetroGraphics.PutPixel(x, y, (byte)Random.Range(0, 31));
+                }
+            }
         }
     }
 }
