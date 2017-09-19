@@ -13,7 +13,7 @@ using System.Diagnostics;
 
 namespace uRetroEngine
 {
-    public class uRetroEngine_Runner_LUA : MonoBehaviour
+    public class uRetroEngine_Runner_LUA : uRetroEngineComponent
     {
         public string runGame = "Template";
 
@@ -54,6 +54,8 @@ namespace uRetroEngine
 
         private void Start()
         {
+            base.OnStart();
+
             if (!uRetroLua.wasExecuted) return;
 
             uRetroLua.OnStart();
@@ -72,18 +74,13 @@ namespace uRetroEngine
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.F1)) uRetroConsole.SwitchVisibility();
-            if (Input.GetKeyDown(KeyCode.F9)) uRetroCapture.Start();
-            if (Input.GetKeyDown(KeyCode.F10)) uRetroSystem.SwitchFPSVisibility();
-            if (Input.GetKeyDown(KeyCode.F11)) uRetroUtils.SwitchProfiler();
+            base.OnUpdate();
 
             // exit when LUA has any error
             if (!uRetroLua.wasExecuted) return;
 
             // exit when console is opened
             if (uRetroConsole.visible) return;
-
-            uRetroInput.UpdateMousePosition();
 
 #if UNITY_EDITOR
 

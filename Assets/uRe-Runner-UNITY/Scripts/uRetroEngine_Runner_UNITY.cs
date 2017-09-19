@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 namespace uRetroEngine
 {
-    public class uRetroEngine_Runner_UNITY : MonoBehaviour
+    public class uRetroEngine_Runner_UNITY : uRetroEngineComponent
     {
         private int xx = 0;
         private int yy = 0;
@@ -28,6 +28,8 @@ namespace uRetroEngine
         // Use this for initialization
         private void Start()
         {
+            base.OnStart();
+
             //uRetroSystem.ShowFPS(true);
             //uRetroSystem.CreateGame("aaaa");
             //uRetroTilemap.ImportPyxelEditTilemap("Py_TestTilemap.json");
@@ -36,7 +38,7 @@ namespace uRetroEngine
             //uRetroSystem.SaveCartridge();
             //Test_MetaSPrite_Init();
             //Test_Tilemap_Init();
-            uRetroTilemap.Clear();
+            //uRetroTilemap.Clear();
 
             uRetroConfig.flipScreenY = true;
 
@@ -64,14 +66,12 @@ namespace uRetroEngine
         // Update is called once per frame
         private void Update()
         {
-            uRetroInput.UpdateMousePosition();
+            base.OnUpdate();
+
+            // ---------------------- TEST CODE .....
 
             uRetroDisplay.Clear();
 
-            if (Input.GetKeyDown(KeyCode.F1)) uRetroConsole.SwitchVisibility();
-            if (Input.GetKeyDown(KeyCode.F9)) uRetroCapture.Start();
-            if (Input.GetKeyDown(KeyCode.F10)) uRetroSystem.SwitchFPSVisibility();
-            if (Input.GetKeyDown(KeyCode.F11)) uRetroUtils.SwitchProfiler();
             if (Input.GetKeyDown(KeyCode.F12)) uRetroConfig.flipScreenY = !uRetroConfig.flipScreenY;
 
             if (Input.GetKeyDown(KeyCode.Alpha1)) uRetroDisplay.PixelSize(1, 1);
