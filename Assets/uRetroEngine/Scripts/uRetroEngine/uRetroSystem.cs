@@ -142,7 +142,7 @@ namespace uRetroEngine
             return true;
         }
 
-        private static RetroDefinition ConfigToDefinition()
+	    public static RetroDefinition ConfigToDefinition()
         {
             RetroDefinition definition;
 
@@ -185,7 +185,7 @@ namespace uRetroEngine
             return definition;
         }
 
-        private static void DefinitionToConfig(RetroDefinition definition)
+	    public static void DefinitionToConfig(RetroDefinition definition)
         {
             uRetroConfig.cartridgesFolder = definition.cartridgesFolder;
             uRetroConfig.cartridgeName = definition.cartridgeName;

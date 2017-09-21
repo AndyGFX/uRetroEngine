@@ -357,9 +357,16 @@ namespace uRetroEngine
         public static void Load()
         {
             string path = uRetroSystem.GetRoot() + "/" + uRetroConfig.cartridgesFolder + "/" + uRetroConfig.cartridgeName + "/";
-            string json = File.ReadAllText(path + uRetroConfig.fileTilemap);
-            layers = JsonConvert.DeserializeObject<List<TilemapLayer>>(json);
-            uRetroConfig.tilemap_layers = layers.Count;
+	        Load(path);
         }
+	    
+	    public static void Load(string path)
+	    {		    
+	    	Debug.Log(path+ uRetroConfig.fileTilemap);
+		    string json = File.ReadAllText(path + uRetroConfig.fileTilemap);
+		    layers = JsonConvert.DeserializeObject<List<TilemapLayer>>(json);
+		    if (layers!=null) uRetroConfig.tilemap_layers = layers.Count;
+	    }
+	    
     }
 }
