@@ -9,21 +9,17 @@ namespace uRetroEngine
 {
     public class uRetroEngine_Runner_UNITY_ONLY : uRetroEngineComponent
     {
-        private int xx = 0;
-        private int yy = 0;
-        private int line = 0;
-
         public string gameFolderName = "uRetroEngine_Game";
         public string gameName = "DEMO-UnityOnlyGame";
-        public bool useExternalConfig = true;
-        private BuildInConfig config;
+        public bool useExternalData = true;
+        private BuildInConfig _config;
 
         private void Awake()
         {
-            if (this.useExternalConfig == false)
+            if (this.useExternalData == false)
             {
-                this.config = this.GetComponent<BuildInConfig>();
-                if (this.config == null) this.useExternalConfig = true;
+                this._config = this.GetComponent<BuildInConfig>();
+                if (this._config == null) this.useExternalData = true;
             }
 
             // set targetDisplay for Mouse Input
@@ -38,7 +34,7 @@ namespace uRetroEngine
             // prepare and set console window
             uRetroConsole.console = GameObject.FindGameObjectWithTag("uRetroConsole");
 
-            if (useExternalConfig)
+            if (useExternalData)
             {
                 uRetroConfig.cartridgeName = this.gameName;
 
@@ -70,16 +66,16 @@ namespace uRetroEngine
             }
             else
             {
-                this.config.Initialize();
+                this._config.Initialize();
 
                 // COLORS
-                uRetroColors.CreatePalette(this.config.colors);
+                uRetroColors.CreatePalette(this._config.colors);
 
                 // SPRITES
-                uRetroSprites.CreateSprites(this.config.sprites);
+                uRetroSprites.CreateSprites(this._config.sprites);
 
                 // FONTS
-                uRetroText.CreateFont(this.config.fonts);
+                uRetroText.CreateFont(this._config.fonts);
             }
 
             // Create Display
@@ -93,6 +89,23 @@ namespace uRetroEngine
         private void Start()
         {
             base.OnStart();
+
+            /*
+
+            // !!! this part you need use only one, when Pyxel tilemap is converted toinetrnal format, then is loaded automaticaly with all data !!!
+
+            // read tilemap
+            string json = File.ReadAllText(uRetroSystem.GetRoot() + "/" + uRetroConfig.cartridgesFolder + "/" + "Py_Tilemap.json");
+
+            // import Pyxel tilemap
+            uRetroTilemap.ImportPyxelEditTilemapFromJSON(json);
+
+            // save tilemap to internal tilemap file
+            uRetroTilemap.Save(uRetroSystem.GetRoot() + "/" + uRetroConfig.cartridgesFolder + "/" + uRetroConfig.fileTilemap);
+
+            // save redefined config
+            uRetroSystem.SaveRetroEngineConfig(uRetroSystem.GetRoot() + "/" + uRetroConfig.cartridgesFolder + "/" + "config.json");
+            */
         }
 
         // Update is called once per frame
@@ -104,8 +117,11 @@ namespace uRetroEngine
 
             uRetroDisplay.Clear(3);
 
+            uRetroTilemap.DrawMap(0, 0, 32, 30, 0, 0);
+
             uRetroText.Font(0);
-            uRetroText.Draw(10, 18, "2017");
+
+            //uRetroText.Draw(10, 18, "2017");
 
             uRetroText.Font(1);
             uRetroText.Draw(10, 10, "Standalone unity version");

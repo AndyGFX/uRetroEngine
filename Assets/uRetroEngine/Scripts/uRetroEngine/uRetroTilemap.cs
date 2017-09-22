@@ -186,6 +186,10 @@ namespace uRetroEngine
         {
             uRetroImage tilePixels = null;
 
+            if (layers == null)
+            {
+                uRetroConsole.PrintError("Tilemap is empty");
+            }
             if (uRetroConfig.flipScreenY)
             {
                 ty = (uRetroConfig.tilemap_height - 1) - ty;
@@ -308,6 +312,40 @@ namespace uRetroEngine
         }
 
         /// <summary>
+        /// Import tilemap created in PyxelEdit program saved as JSON file
+        /// </summary>
+        /// <param name="filename"></param>
+        public static void ImportPyxelEditTilemapFromJSON(string jsonData)
+        {
+            PyxelEditTilemap tilemap;
+
+            tilemap = JsonConvert.DeserializeObject<PyxelEditTilemap>(jsonData);
+
+            uRetroConfig.tilemap_layers = tilemap.layers.Length;
+            uRetroTilemap.CreateTilemap(tilemap.tileswide, tilemap.tileshigh, tilemap.layers.Length);
+
+            for (int i = 0; i < tilemap.layers.Length; i++)
+            {
+                int layer_id = i;
+
+                for (int t = 0; t < tilemap.layers[layer_id].tiles.Length; t++)
+                {
+                    int x = tilemap.layers[layer_id].tiles[t].x;
+
+                    int y = (tilemap.tileshigh - 1) - tilemap.layers[layer_id].tiles[t].y;
+
+                    int sprite_id = tilemap.layers[layer_id].tiles[t].tile;
+                    int rot = tilemap.layers[layer_id].tiles[t].rot;
+                    bool fx = tilemap.layers[layer_id].tiles[t].flipX;
+                    bool fy = (rot == 2) ? true : false;
+                    if (rot == 2) fx = !fx;
+
+                    uRetroTilemap.SetTile(layer_id, x, y, sprite_id, 0, fx, fy);
+                }
+            }
+        }
+
+        /// <summary>
         /// Import PyxelEdit tilemap as collision for setup flags on target layer ID
         /// </summary>
         /// <param name="filename">PyxelEdit exported tilemap filename</param>
@@ -346,9 +384,17 @@ namespace uRetroEngine
         /// </summary>
         public static void Save()
         {
+            string path = uRetroSystem.GetRoot() + "/" + uRetroConfig.cartridgesFolder + "/" + uRetroConfig.cartridgeName + "/" + uRetroConfig.fileTilemap;
+            Save(path);
+        }
+
+        /// <summary>
+        /// Save Tilemap to file to internal uRetro format
+        /// </summary>
+        public static void Save(string path)
+        {
             string tilemap = JsonConvert.SerializeObject(uRetroTilemap.layers, Formatting.Indented);
-            string path = uRetroSystem.GetRoot() + "/" + uRetroConfig.cartridgesFolder + "/" + uRetroConfig.cartridgeName + "/";
-            File.WriteAllText(path + uRetroConfig.fileTilemap, tilemap);
+            File.WriteAllText(path, tilemap);
         }
 
         /// <summary>
@@ -357,16 +403,15 @@ namespace uRetroEngine
         public static void Load()
         {
             string path = uRetroSystem.GetRoot() + "/" + uRetroConfig.cartridgesFolder + "/" + uRetroConfig.cartridgeName + "/";
-	        Load(path);
+            Load(path);
         }
-	    
-	    public static void Load(string path)
-	    {		    
-	    	Debug.Log(path+ uRetroConfig.fileTilemap);
-		    string json = File.ReadAllText(path + uRetroConfig.fileTilemap);
-		    layers = JsonConvert.DeserializeObject<List<TilemapLayer>>(json);
-		    if (layers!=null) uRetroConfig.tilemap_layers = layers.Count;
-	    }
-	    
+
+        public static void Load(string path)
+        {
+            Debug.Log(path + uRetroConfig.fileTilemap);
+            string json = File.ReadAllText(path + uRetroConfig.fileTilemap);
+            layers = JsonConvert.DeserializeObject<List<TilemapLayer>>(json);
+            if (layers != null) uRetroConfig.tilemap_layers = layers.Count;
+        }
     }
 }

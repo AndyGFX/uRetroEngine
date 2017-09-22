@@ -81,7 +81,7 @@ namespace uRetroEngine
 
         private static void PrintErrorText(System.Object txt)
         {
-            Debug.Log("<color=orange>u</color><color=white>Retro</color><color=orange>Engine </color><color=red>ERROR: " + txt + "</color>");
+            Debug.LogError("<color=orange>u</color><color=white>Retro</color><color=orange>Engine </color><color=red>ERROR: " + txt + "</color>");
         }
     }
 }

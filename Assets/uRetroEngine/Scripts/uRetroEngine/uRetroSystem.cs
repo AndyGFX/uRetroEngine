@@ -142,7 +142,7 @@ namespace uRetroEngine
             return true;
         }
 
-	    public static RetroDefinition ConfigToDefinition()
+        public static RetroDefinition ConfigToDefinition()
         {
             RetroDefinition definition;
 
@@ -185,7 +185,7 @@ namespace uRetroEngine
             return definition;
         }
 
-	    public static void DefinitionToConfig(RetroDefinition definition)
+        public static void DefinitionToConfig(RetroDefinition definition)
         {
             uRetroConfig.cartridgesFolder = definition.cartridgesFolder;
             uRetroConfig.cartridgeName = definition.cartridgeName;
@@ -227,9 +227,14 @@ namespace uRetroEngine
 
         public static void SaveRetroEngineConfig()
         {
-            string json = JsonConvert.SerializeObject(ConfigToDefinition(), Formatting.Indented);
-
             string path = GetRoot() + "/" + uRetroConfig.cartridgesFolder + "/" + uRetroConfig.cartridgeName + "/" + "config.json";
+
+            SaveRetroEngineConfig(path);
+        }
+
+        public static void SaveRetroEngineConfig(string path)
+        {
+            string json = JsonConvert.SerializeObject(ConfigToDefinition(), Formatting.Indented);
             File.WriteAllText(path, json);
         }
 
