@@ -4,9 +4,9 @@
 Library/
 _Build_/uRetroEngine_Data/
 _Build_/*.exe
-Assets/AssetStoreTools/
-Assets/Editor/
-Assets/uRetroEngine Framework/
+Assets/AssetStoreTools/*.*
+Assets/Editor/*.*
+Assets/uRetroEngine Framework/*.*
 Temp/
 *.userprefs
 *.DotSettings
