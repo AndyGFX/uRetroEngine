@@ -182,6 +182,14 @@ namespace uRetroEngine
             }
         }
 
+        /// <summary>
+        /// Draw single tile from tilemap at tx,ty from defined layer to screen
+        /// </summary>
+        /// <param name="layer">tilemap layer</param>
+        /// <param name="tx">tile x position in tilemap</param>
+        /// <param name="ty">tile y position in tilemap</param>
+        /// <param name="sx">to screen x postion in pixels</param>
+        /// <param name="sy">to screen y postion in pixels</param>
         public static void DrawTile(int layer, int tx, int ty, int sx, int sy)
         {
             uRetroImage tilePixels = null;
@@ -251,6 +259,18 @@ namespace uRetroEngine
             }
         }
 
+        /// <summary>
+        /// Draw tilemap layer defined as rectangle to screen
+        /// </summary>
+        /// <param name="_layer">laier id</param>
+        /// <param name="_tx">tilemap x position</param>
+        /// <param name="_ty">tilemap y position</param>
+        /// <param name="_tw">rectangle width</param>
+        /// <param name="_th">rectangle height</param>
+        /// <param name="_sx">target screen x postion (in pixels)</param>
+        /// <param name="_sy">target screen y postion (in pixels)</param>
+        /// <param name="_maskColor">-- not implemented --</param>
+        /// <param name="_scale">-- not implemented -- use SetPixelSize instead</param>
         public static void DrawLayer(int _layer, int _tx, int _ty, int _tw, int _th, int _sx, int _sy, byte _maskColor = 0, int _scale = 1)
         {
             // [1] transfer tiles to buffer [tx,ty] -> [tx+tw,ty+th]
@@ -406,6 +426,9 @@ namespace uRetroEngine
             Load(path);
         }
 
+        /// <summary>
+        /// Load Tilemp from file (internal uRetro format) from user defined path
+        /// </summary>
         public static void Load(string path)
         {
             Debug.Log(path + uRetroConfig.fileTilemap);

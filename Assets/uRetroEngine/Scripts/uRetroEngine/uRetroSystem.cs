@@ -7,6 +7,9 @@ using Newtonsoft.Json;
 
 namespace uRetroEngine
 {
+    /// <summary>
+    /// Game cartridge definiton
+    /// </summary>
     public struct RetroCartridge
     {
         public string definition;
@@ -18,6 +21,9 @@ namespace uRetroEngine
         public List<SrcInclude> include;
     }
 
+    /// <summary>
+    /// serialized config definition
+    /// </summary>
     public struct RetroDefinition
     {
         public string cartridgesFolder;
@@ -71,13 +77,23 @@ namespace uRetroEngine
         public KeyCode KeyCode_OPTION;
     }
 
+    /// <summary>
+    /// System commands for uRetroEngine
+    /// </summary>
     public static class uRetroSystem
     {
+        /// <summary>
+        /// Return path where is BINARY build located
+        /// </summary>
+        /// <returns></returns>
         public static string GetRoot()
         {
             return Path.GetDirectoryName(Application.dataPath);
         }
 
+        /// <summary>
+        /// Initialize system from scene components
+        /// </summary>
         public static void Init()
         {
             // set targetDisplay for Mouse Input
@@ -98,7 +114,11 @@ namespace uRetroEngine
             }
         }
 
-        // load JSON game definition and all files for RUN
+        /// <summary>
+        /// Load JSON game definition and all files for RUN
+        /// </summary>
+        /// <param name="cartridgeName"></param>
+        /// <returns></returns>
         public static bool LoadData(string cartridgeName)
         {
             uRetroConfig.cartridgeName = cartridgeName;
@@ -225,6 +245,9 @@ namespace uRetroEngine
             uRetroConfig.OPTION = definition.KeyCode_OPTION;
         }
 
+        /// <summary>
+        /// Save config to game folder in catridge mode
+        /// </summary>
         public static void SaveRetroEngineConfig()
         {
             string path = GetRoot() + "/" + uRetroConfig.cartridgesFolder + "/" + uRetroConfig.cartridgeName + "/" + "config.json";
@@ -232,19 +255,38 @@ namespace uRetroEngine
             SaveRetroEngineConfig(path);
         }
 
+        /// <summary>
+        /// Save config to user data folder
+        /// </summary>
+        /// <param name="path"></param>
         public static void SaveRetroEngineConfig(string path)
         {
             string json = JsonConvert.SerializeObject(ConfigToDefinition(), Formatting.Indented);
             File.WriteAllText(path, json);
         }
 
+        /// <summary>
+        /// Load config from game folder in catridge mode
+        /// </summary>
         public static void LoadRetroEngineConfig()
         {
             string path = GetRoot() + "/" + uRetroConfig.cartridgesFolder + "/" + uRetroConfig.cartridgeName + "/" + "config.json";
+            LoadRetroEngineConfig(path);
+        }
+
+        /// <summary>
+        /// Load config from user defined game folder
+        /// </summary>
+        public static void LoadRetroEngineConfig(string path)
+        {
             string json = File.ReadAllText(path);
             DefinitionToConfig(JsonConvert.DeserializeObject<RetroDefinition>(json));
         }
 
+        /// <summary>
+        /// Create game in catridge folder with included folder = game name, with files from template
+        /// </summary>
+        /// <param name="name"></param>
         public static void CreateGame(string name)
         {
             uRetroConfig.cartridgeName = name;
@@ -419,11 +461,18 @@ end
 
         #endregion Cartridge
 
+        /// <summary>
+        /// Show GPU/CPU profiler with FPS
+        /// </summary>
+        /// <param name="state"></param>
         public static void ShowFPS(bool state)
         {
             Camera.main.GetComponent<DentedPixelPerformance.FPSGraphC>().enabled = state;
         }
 
+        /// <summary>
+        /// Switch profiler visibility
+        /// </summary>
         public static void SwitchFPSVisibility()
         {
             Camera.main.GetComponent<DentedPixelPerformance.FPSGraphC>().enabled = !Camera.main.GetComponent<DentedPixelPerformance.FPSGraphC>().enabled;
@@ -473,6 +522,9 @@ end
             return true;
         }
 
+        /// <summary>
+        /// Reset game cartridge
+        /// </summary>
         public static void ResetGame()
         {
             uRetroSystem.LoadData(uRetroConfig.cartridgeName);
@@ -483,6 +535,10 @@ end
             uRetroConsole.Print("Executed.");
         }
 
+        /// <summary>
+        /// Load game extracted in catridge folder under game name folder
+        /// </summary>
+        /// <param name="cartridgeName"></param>
         public static void LoadGame(string cartridgeName)
         {
             bool state = uRetroSystem.LoadData(cartridgeName);
@@ -496,6 +552,9 @@ end
             }
         }
 
+        /// <summary>
+        /// Run loaded game (main.lua file is executed)
+        /// </summary>
         public static void RunGame()
         {
             if (uRetroLua.isLoaded)

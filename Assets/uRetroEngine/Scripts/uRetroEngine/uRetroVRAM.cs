@@ -5,19 +5,30 @@ using System;
 
 namespace uRetroEngine
 {
+    /// <summary>
+    /// VRAM class
+    /// </summary>
     public static class uRetroVRAM
     {
+        /// <summary>
+        /// VRAm array
+        /// </summary>
         public static byte[] buffer = new byte[1];
+
         public static bool changed = false;
         private static byte[] emptyBuffer = new byte[1];
 
+        /// <summary>
+        /// Default clipping area
+        /// </summary>
         public static int clipX = 0;
+
         public static int clipY = 0;
         public static int clipW = 256;
         public static int clipH = 240;
 
         /// <summary>
-        ///
+        /// Create VRAm buffer
         /// </summary>
         /// <param name="w"></param>
         /// <param name="h"></param>
@@ -30,11 +41,11 @@ namespace uRetroEngine
         }
 
         /// <summary>
-        ///
+        /// Write pixel to VRAM
         /// </summary>
-        /// <param name="x"></param>
-        /// <param name="y"></param>
-        /// <param name="color"></param>
+        /// <param name="x">x position</param>
+        /// <param name="y">y position</param>
+        /// <param name="color">color id</param>
         public static void Pixel(int x, int y, byte color)
         {
             int nx = x * uRetroDisplay.pixelSizeX;
@@ -50,34 +61,34 @@ namespace uRetroEngine
                 {
                     for (int py = 0; py < uRetroDisplay.pixelSizeY; py++)
                     {
-	                    //idx = uRetroUtils.ScreenPositionToIndex(nx + px, uRetroUtils.FlipPixelY(ny + py));
-	                    //uRetroVRAM.buffer[idx] = color;
-	                    uRetroVRAM.buffer[(nx+px) + uRetroUtils.FlipPixelY(ny+py) * uRetroConfig.screen_width] = color;
+                        //idx = uRetroUtils.ScreenPositionToIndex(nx + px, uRetroUtils.FlipPixelY(ny + py));
+                        //uRetroVRAM.buffer[idx] = color;
+                        uRetroVRAM.buffer[(nx + px) + uRetroUtils.FlipPixelY(ny + py) * uRetroConfig.screen_width] = color;
                     }
                 }
             }
             else
             {
-            	
-	            //idx = uRetroUtils.ScreenPositionToIndex(nx + 0, uRetroUtils.FlipPixelY(ny + 0));
-	            //uRetroVRAM.buffer[idx] = color;
-	            uRetroVRAM.buffer[nx + uRetroUtils.FlipPixelY(ny) * uRetroConfig.screen_width] = color;
-	            
-	            
-	            
+                //idx = uRetroUtils.ScreenPositionToIndex(nx + 0, uRetroUtils.FlipPixelY(ny + 0));
+                //uRetroVRAM.buffer[idx] = color;
+                uRetroVRAM.buffer[nx + uRetroUtils.FlipPixelY(ny) * uRetroConfig.screen_width] = color;
             }
 
             changed = true;
         }
 
         /// <summary>
-        ///
+        /// Clear VRAm buffer
         /// </summary>
         public static void ClearBuffer()
         {
             Array.Copy(emptyBuffer, buffer, emptyBuffer.Length);
         }
 
+        /// <summary>
+        /// Clear VRAM buffer with defind color
+        /// </summary>
+        /// <param name="color"></param>
         public static void ClearBuffer(byte color)
         {
             int size = emptyBuffer.Length;

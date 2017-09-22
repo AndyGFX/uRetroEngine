@@ -5,6 +5,9 @@ using System.IO;
 
 namespace uRetroEngine
 {
+    /// <summary>
+    /// Included Lua code item
+    /// </summary>
     public struct SrcInclude
     {
         public string name;
@@ -17,10 +20,20 @@ namespace uRetroEngine
         }
     }
 
+    /// <summary>
+    /// Lua library class
+    /// </summary>
     public static class uRetroLuaLibrary
     {
+        /// <summary>
+        /// List of all included lua codes
+        /// </summary>
         public static List<SrcInclude> include = new List<SrcInclude>();
 
+        /// <summary>
+        /// Load lua scrip from LIBS folder
+        /// </summary>
+        /// <param name="name"></param>
         public static void Require(string name)
         {
             string path = uRetroSystem.GetRoot() + "/uRetroEngine_Libs/" + name;
@@ -37,6 +50,10 @@ namespace uRetroEngine
             }
         }
 
+        /// <summary>
+        /// Include lua code to main.lua and store code in list
+        /// </summary>
+        /// <param name="name"></param>
         public static void Include(string name)
         {
             DoIncludeSrc(name);

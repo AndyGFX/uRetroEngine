@@ -5,6 +5,9 @@ using System;
 
 namespace uRetroEngine
 {
+    /// <summary>
+    /// Sprite class
+    /// </summary>
     public static class uRetroSprites
     {
         // TODO: change to array instead List
@@ -16,7 +19,7 @@ namespace uRetroEngine
         private static int sheetHeight = 0;
 
         /// <summary>
-        ///
+        /// Create sprites from texture
         /// </summary>
         /// <param name="texture"></param>
         public static void CreateSprites(Texture2D texture)
@@ -65,11 +68,13 @@ namespace uRetroEngine
         }
 
         /// <summary>
-        ///
+        /// Draw sprite to screen
         /// </summary>
-        /// <param name="id"></param>
-        /// <param name="x"></param>
-        /// <param name="y"></param>
+        /// <param name="id">sprite id</param>
+        /// <param name="x">screen x postion</param>
+        /// <param name="y">screnn y postion</param>
+        /// <param name="flipX">flip horizontaly</param>
+        /// <param name="flipY">flip verticaly</param>
         /// <param name="transparent"></param>
         public static void DrawSprite(int id, int x, int y, bool flipX = false, bool flipY = false, bool transparent = true)
         {
@@ -77,21 +82,43 @@ namespace uRetroEngine
             uRetroUtils.DrawImage(sprite, x, y, transparent);
         }
 
+        /// <summary>
+        /// Flip sprite in sprites (on source)
+        /// </summary>
+        /// <param name="id">sprite id</param>
+        /// <param name="flipX">flip horizontaly</param>
+        /// <param name="flipY">flip verticaly</param>
         public static void FlipSprite(int id, bool flipX, bool flipY)
         {
             sprites[id].Flip(flipX, flipY);
         }
 
+        /// <summary>
+        /// Get sprite in common image type
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public static uRetroImage GetSpriteRetroImage(int id)
         {
             return sprites[id];
         }
 
+        /// <summary>
+        /// Get sprites as array
+        /// </summary>
+        /// <returns></returns>
         public static uRetroImage[] GetSpritesAsArray()
         {
             return sprites.ToArray();
         }
 
+        /// <summary>
+        /// Set pixel in sprite
+        /// </summary>
+        /// <param name="ID">spite id</param>
+        /// <param name="x">sprite x postion (0..sprite width)</param>
+        /// <param name="y">sprite y postion (0..sprite height)</param>
+        /// <param name="colorID"></param>
         public static void SetPixel(int ID, int x, int y, byte colorID)
         {
             if ((x < 0) || (x >= uRetroConfig.sprite_width) || (y < 0) || (y >= uRetroConfig.sprite_height))
@@ -103,6 +130,13 @@ namespace uRetroEngine
             sprites[ID].data[x + y * uRetroConfig.sprite_width] = colorID;
         }
 
+        /// <summary>
+        /// Get color id in sprite at x,y
+        /// </summary>
+        /// <param name="ID">sprite id</param>
+        /// <param name="x">sprite x postion</param>
+        /// <param name="y">sprite y position</param>
+        /// <returns></returns>
         public static byte GetPixel(int ID, int x, int y)
         {
             if ((x < 0) || (x >= uRetroConfig.sprite_width) || (y < 0) || (y >= uRetroConfig.sprite_height))
@@ -114,27 +148,48 @@ namespace uRetroEngine
             return sprites[ID].data[x + y * uRetroConfig.sprite_width];
         }
 
+        /// <summary>
+        ///  Get sprite as color id array
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public static byte[] GetPixels(int id)
         {
             return sprites[id].data;
         }
 
+        /// <summary>
+        ///  Backup sprite
+        /// </summary>
+        /// <param name="ID">sprite id</param>
         public static void Store(int ID)
         {
             sprites[ID].Store();
         }
 
+        /// <summary>
+        /// restore sprite from backup
+        /// </summary>
+        /// <param name="ID"></param>
         public static void Restore(int ID)
         {
             sprites[ID].Restore();
         }
 
+        /// <summary>
+        /// Create sprites from uRetroImage array
+        /// </summary>
+        /// <param name="images"></param>
         public static void CreateFromRetroImageList(uRetroImage[] images)
         {
             sprites = new List<uRetroImage>();
             sprites.AddRange(images);
         }
 
+        /// <summary>
+        /// Convert sprites to Texture2D
+        /// </summary>
+        /// <returns></returns>
         public static Texture2D GetAsImage()
         {
             int w = 16;

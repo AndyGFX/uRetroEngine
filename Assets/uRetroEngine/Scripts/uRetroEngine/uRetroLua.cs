@@ -15,6 +15,9 @@ using MoonSharp.Interpreter;
 
 namespace uRetroEngine
 {
+    /// <summary>
+    /// uRetroEngine LUA interpreter (NLua or MOONSHARP) set compiler directive for assign
+    /// </summary>
     public static class uRetroLua
     {
         public static string code = "";
@@ -33,6 +36,9 @@ namespace uRetroEngine
         public static bool isLoaded = false;
         public static bool fromCart = false;
 
+        /// <summary>
+        /// Create LUA engine and load main.lua script from crtridge game folder
+        /// </summary>
         public static void Load()
         {
             string path = uRetroSystem.GetRoot() + "/" + uRetroConfig.cartridgesFolder + "/" + uRetroConfig.cartridgeName + "/";
@@ -162,6 +168,9 @@ namespace uRetroEngine
             }
         }
 
+        /// <summary>
+        /// Run loaded main.lua script
+        /// </summary>
         public static void Run()
         {
             if (isLoaded)
@@ -188,26 +197,42 @@ namespace uRetroEngine
 
 #if NLUA
 
+        /// <summary>
+        /// Callback to LUA script "OnStart" funtion
+        /// </summary>
         public static void OnStart()
         {
             if (wasExecuted) _OnStart.Call();
         }
 
+        /// <summary>
+        /// Callback to LUA script "OnUpdate" funtion
+        /// </summary>
         public static void OnUpdate()
         {
             if (wasExecuted) _OnUpdate.Call(Time.deltaTime);
         }
 
+        /// <summary>
+        /// Callback to LUA script "OnScanline" funtion
+        /// </summary>
+        /// <param name="line"></param>
         public static void OnScaline(int line)
         {
             if (wasExecuted) _OnScanline.Call(line);
         }
 
+        /// <summary>
+        /// Callback to LUA script "OnClose" funtion
+        /// </summary>
         public static void OnClose()
         {
             if (wasExecuted) _OnClose.Call();
         }
 
+        /// <summary>
+        /// Callback to LUA script "OnGui" funtion
+        /// </summary>
         public static void OnGUI()
         {
             if (wasExecuted) _OnGui.Call();

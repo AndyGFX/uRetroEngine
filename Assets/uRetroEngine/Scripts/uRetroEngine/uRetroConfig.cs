@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace uRetroEngine
 {
+    /// <summary>
+    /// uRetroEngine configuration
+    /// </summary>
     [System.Serializable]
     public class uRetroConfig
     {

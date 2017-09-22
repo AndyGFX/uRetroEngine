@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace uRetroEngine
 {
+    /// <summary>
+    /// Not implemented (w.i.p)
+    /// </summary>
     public static class uRetroMetaSprites
     {
         //private static List<uRetroImage> metaSprites = new List<uRetroImage>();

@@ -25,13 +25,27 @@ namespace uRetroEngine
     [MoonSharpUserData]
 #endif
 
+    /// <summary>
+    /// Screen Capture lua method
+    /// </summary>
     public class uRetroLuaClasses_Capture
     {
+        /// <summary>
+        /// [Capture:Start] - start capturing anim Gif
+        /// </summary>
         public void Start()
         {
             uRetroCapture.Start();
         }
 
+        /// <summary>
+        /// [Capture:Setup] setup gif capturing properties
+        /// </summary>
+        /// <param name="filename">gif file name</param>
+        /// <param name="framerate">capturing framerate</param>
+        /// <param name="downscale">downscale</param>
+        /// <param name="time">capturing time</param>
+        /// <param name="bilinear">use bilinear filtering</param>
         public void Setup(string filename, int framerate, int downscale, int time, bool bilinear)
         {
             uRetroCapture.Setup(filename, framerate, downscale, time, bilinear);
@@ -47,13 +61,24 @@ namespace uRetroEngine
     [MoonSharpUserData]
 #endif
 
+    /// <summary>
+    /// Library lua mathods
+    /// </summary>
     public class uRetroLuaClasses_Library
     {
+        /// <summary>
+        /// [Library:Require] load lua file from LIBS folder
+        /// </summary>
+        /// <param name="filename"></param>
         public void Require(string filename)
         {
             uRetroLuaLibrary.Require(filename);
         }
 
+        /// <summary>
+        /// [Library:Include] - load lua script from cartridge folder (all included lua files are stored to lus code list and can be saved as ine sible crtridge)
+        /// </summary>
+        /// <param name="filename"></param>
         public void Include(string filename)
         {
             uRetroLuaLibrary.Include(filename);
@@ -807,13 +832,24 @@ namespace uRetroEngine
     [MoonSharpUserData]
 #endif
 
+    /// <summary>
+    /// Utils lua method
+    /// </summary>
     public class uRetroLuaClasses_Utils
     {
+        /// <summary>
+        /// [Utils:CodeProfileStart] start timer
+        /// </summary>
+        /// <param name="label">timer name</param>
         public void CodeProfilerStart(string label)
         {
             uRetroUtils.CodeProfilerStart(label);
         }
 
+        /// <summary>
+        /// [Utils:CodeProfilerEnd] - end timer
+        /// </summary>
+        /// <param name="label">timer name</param>
         public void CodeProfilerEnd(string label)
         {
             uRetroUtils.CodeProfilerEnd(label);

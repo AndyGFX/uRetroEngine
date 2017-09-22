@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 namespace uRetroEngine
 {
+    /// <summary>
+    /// Input manager
+    /// </summary>
     public static class uRetroInput
     {
         public static int mouse_x = 0;

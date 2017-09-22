@@ -6,8 +6,14 @@ using System.IO;
 
 namespace uRetroEngine
 {
+    /// <summary>
+    /// stored TYPES enumaration
+    /// </summary>
     public enum DataType { TYPE_INT, TYPE_FLOAT, TYPE_STRING }
 
+    /// <summary>
+    /// GameData value
+    /// </summary>
     public struct GameData
     {
         public string name;
@@ -15,15 +21,28 @@ namespace uRetroEngine
         public DataType type;
     }
 
+    /// <summary>
+    /// Store user defined game data to persistent data path
+    /// </summary>
     public static class uRetroGameData
     {
         public static List<GameData> data = new List<GameData>();
 
+        /// <summary>
+        /// Check if variable exist in list
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
         private static bool Exist(string name)
         {
             return data.Exists(d => (d.name == name));
         }
 
+        /// <summary>
+        /// Set variable with value
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="value"></param>
         public static void Set(string name, object value)
         {
             GameData newData;
@@ -74,6 +93,11 @@ namespace uRetroEngine
             }
         }
 
+        /// <summary>
+        /// Store float variable with value
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="value"></param>
         public static void SetFloat(string name, float value)
         {
             GameData newData;
@@ -91,6 +115,11 @@ namespace uRetroEngine
             data[data.FindIndex(d => (d.name == name))] = newData;
         }
 
+        /// <summary>
+        /// Store int variable with value
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="value"></param>
         public static void SetInt(string name, int value)
         {
             GameData newData;
@@ -108,6 +137,11 @@ namespace uRetroEngine
             data[data.FindIndex(d => (d.name == name))] = newData;
         }
 
+        /// <summary>
+        /// Store string variable with value
+        /// </summary>
+        /// <param name="name">name</param>
+        /// <param name="value">value</param>
         public static void SetString(string name, string value)
         {
             GameData newData;
@@ -125,11 +159,20 @@ namespace uRetroEngine
             data[data.FindIndex(d => (d.name == name))] = newData;
         }
 
+        /// <summary>
+        /// Delete variable
+        /// </summary>
+        /// <param name="name"> variable name</param>
         public static void Delete(string name)
         {
             data.Remove(data.Find(d => (d.name == name)));
         }
 
+        /// <summary>
+        /// Get variable value as int
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
         public static int GetAsInt(string name)
         {
             int res = 0;
@@ -152,6 +195,11 @@ namespace uRetroEngine
             return res;
         }
 
+        /// <summary>
+        /// Get variable value as float
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
         public static float GetAsFloat(string name)
         {
             float res = 0f;
@@ -175,6 +223,11 @@ namespace uRetroEngine
             return res;
         }
 
+        /// <summary>
+        /// Get variable value as string
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
         public static string GetAsString(string name)
         {
             string res = "";
@@ -197,6 +250,9 @@ namespace uRetroEngine
             return res;
         }
 
+        /// <summary>
+        /// Save user game data to persistent data path
+        /// </summary>
         public static void Save()
         {
             string json = JsonConvert.SerializeObject(data, Formatting.Indented);
@@ -204,6 +260,9 @@ namespace uRetroEngine
             File.WriteAllText(path, json);
         }
 
+        /// <summary>
+        /// Load game data from persistent data path
+        /// </summary>
         public static void Load()
         {
             string path = Application.persistentDataPath + "/" + uRetroConfig.cartridgeName + ".gamedata";

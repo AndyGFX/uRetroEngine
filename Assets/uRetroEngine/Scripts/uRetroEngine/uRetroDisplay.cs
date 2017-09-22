@@ -6,6 +6,9 @@ using System;
 
 namespace uRetroEngine
 {
+    /// <summary>
+    /// Scene dyspplay componet for rendering to texture from uRetro VRAM
+    /// </summary>
     public class uRetroDisplay : MonoBehaviour
     {
         public static Texture2D displayBuffer;
@@ -28,6 +31,10 @@ namespace uRetroEngine
         {
         }
 
+        /// <summary>
+        /// Create display from canvas RAWImage
+        /// </summary>
+        /// <param name="_display"></param>
         public static void CreateDisplay(RawImage _display)
         {
             display = _display;
@@ -35,6 +42,9 @@ namespace uRetroEngine
             Clip();
         }
 
+        /// <summary>
+        /// Reset rendering area back to screen size
+        /// </summary>
         public static void Clip()
         {
             uRetroVRAM.clipX = 0;
@@ -43,6 +53,13 @@ namespace uRetroEngine
             uRetroVRAM.clipH = uRetroConfig.screen_height;
         }
 
+        /// <summary>
+        /// Define rendering area
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <param name="width"></param>
+        /// <param name="height"></param>
         public static void Clip(int x, int y, int width, int height)
         {
             uRetroVRAM.clipX = x;
@@ -51,11 +68,21 @@ namespace uRetroEngine
             uRetroVRAM.clipH = height;
         }
 
+        /// <summary>
+        /// Create display from scene gameObject (where is assigned UI RAWImage)
+        /// </summary>
+        /// <param name="_display"></param>
         public static void CreateDisplay(GameObject _display)
         {
             display = _display.GetComponent<RawImage>();
         }
 
+        /// <summary>
+        /// Set screen resolution and set VRAM size
+        /// </summary>
+        /// <param name="w"></param>
+        /// <param name="h"></param>
+        /// <param name="background_color_id"></param>
         public static void SetResolution(int w, int h, byte background_color_id)
         {
             if (display == null)
@@ -86,6 +113,9 @@ namespace uRetroEngine
             backBuffer = new Color[displayBuffer.GetPixels32().Length];
         }
 
+        /// <summary>
+        /// Flip VRAM backbuffer to screen
+        /// </summary>
         public static void Flip()
         {
             FlipBuffer();
@@ -93,13 +123,20 @@ namespace uRetroEngine
             //uRetroDisplay.instance.FlipBufferPerSegment();
         }
 
+        /// <summary>
+        /// Set pixel size
+        /// </summary>
+        /// <param name="pSizeX">x size</param>
+        /// <param name="pSizeY">y size</param>
         public static void PixelSize(int pSizeX, int pSizeY)
         {
             pixelSizeX = pSizeX;
             pixelSizeY = pSizeY;
         }
 
-        // consume 91% of CPU time
+        /// <summary>
+        /// Flip VRAm buffer to texture (convert color ID to RGB color)
+        /// </summary>
         public static void FlipBuffer()
         {
             if (!uRetroVRAM.changed) return;
@@ -157,6 +194,10 @@ namespace uRetroEngine
             }
         }
 
+        /// <summary>
+        /// Clear buffer (screen) with default color id=0
+        /// </summary>
+        /// <param name="color">color id from palette</param>
         public static void Clear(byte color = 0)
         {
             uRetroVRAM.ClearBuffer(color);

@@ -5,6 +5,9 @@ using System;
 
 namespace uRetroEngine
 {
+    /// <summary>
+    /// Font definition
+    /// </summary>
     public struct FontData
     {
         public int fontID;
@@ -12,6 +15,9 @@ namespace uRetroEngine
         public int fontSpacing;
     }
 
+    /// <summary>
+    /// Text class
+    /// </summary>
     public static class uRetroText
     {
         // TODO: change to array instead List
@@ -20,6 +26,10 @@ namespace uRetroEngine
         private static FontData[] fonts = new FontData[4];
         private static int currentFont = 0;
 
+        /// <summary>
+        /// Create fonts from texture
+        /// </summary>
+        /// <param name="texture">texture 2d</param>
         public static void CreateFont(Texture2D texture)
         {
             if (texture.width % uRetroConfig.sprite_width != 0)
@@ -64,6 +74,12 @@ namespace uRetroEngine
             }
         }
 
+        /// <summary>
+        /// Set font (when multiple fonts are in texture)
+        /// </summary>
+        /// <param name="fontID">font id</param>
+        /// <param name="fontCharStart">font start</param>
+        /// <param name="fontSpacing">character spacing</param>
         public static void SetFont(int fontID, int fontCharStart, int fontSpacing)
         {
             fonts[fontID].fontID = fontID;
@@ -71,11 +87,21 @@ namespace uRetroEngine
             fonts[fontID].fontSpacing = fontSpacing;
         }
 
+        /// <summary>
+        /// Set current font for DrawText
+        /// </summary>
+        /// <param name="fontID"></param>
         public static void Font(int fontID)
         {
             currentFont = fontID;
         }
 
+        /// <summary>
+        /// Draw text to screen
+        /// </summary>
+        /// <param name="x">screen x position (pixels)</param>
+        /// <param name="y">screen y position (pixels)</param>
+        /// <param name="text">text</param>
         public static void Draw(int x, int y, string text)
         {
             char[] chars = text.ToCharArray();
@@ -96,6 +122,14 @@ namespace uRetroEngine
             }
         }
 
+        /// <summary>
+        /// Draw text to screen
+        /// </summary>
+        /// <param name="x">screen x position (pixels)</param>
+        /// <param name="y">screen y position (pixels)</param>
+        /// <param name="text">text</param>
+        /// <param name="frontColor">replace all color to this color id</param>
+        /// <param name="backgroundColor">fill transparen color with tis color</param>
         public static void Draw(int x, int y, string text, byte frontColor, int backgroundColor = -1)
         {
             char[] chars = text.ToCharArray();
@@ -125,17 +159,29 @@ namespace uRetroEngine
             }
         }
 
+        /// <summary>
+        /// Get charatcer as uRetroImage array
+        /// </summary>
+        /// <returns></returns>
         public static uRetroImage[] GetCharsAsArray()
         {
             return characters.ToArray();
         }
 
+        /// <summary>
+        /// Create fonts from uRetroImage array
+        /// </summary>
+        /// <param name="images"></param>
         public static void CreateFromRetroImageList(uRetroImage[] images)
         {
             characters = new List<uRetroImage>();
             characters.AddRange(images);
         }
 
+        /// <summary>
+        /// Create texture from fonts
+        /// </summary>
+        /// <returns></returns>
         public static Texture2D GetAsImage()
         {
             int w = 16;
