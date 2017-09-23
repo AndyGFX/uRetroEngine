@@ -2,6 +2,8 @@
 
 Unity retro game framework with lua support
 
+!!! for working with this project you need unity asset: uRetroEngine download from 	https://www.assetstore.unity3d.com/#!/content/100996
+
 FEATURES:
 -------------
 
