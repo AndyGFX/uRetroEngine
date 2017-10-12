@@ -1,8 +1,9 @@
+CubesTeam
+o.kollar@gmail.com
+
 # uRetroEngine
 
 Unity retro game framework with lua support
-
-!!! for working with this project you need unity asset: uRetroEngine download from 	https://www.assetstore.unity3d.com/#!/content/100996
 
 FEATURES:
 -------------
@@ -21,13 +22,41 @@ FEATURES:
 - you can create retro game and build to PC/MAC/Linux/Androis or Mac using uRetro classes
 - or create universal player and via lua script create game outside of unity
 
+Installation instruction:
+------------------------------
+
+1) Open Build project/ Player setting and put this
+
+UNITY_3D;USE_KERALUA;LUA_CORE;CATCH_EXCEPTIONS;NLUA
+
+to Scripting define symbols*
+
+Note: all concele errors are now removed.
+
+
+2) INSTALL external data for working with examples:
+- unzip uRetroEngine_folders.rar from resources to project folder 
+
+directory then looks like this:
+
+..
+_Build_
+Assets
+Library
+ProjectSettings
+uRetroEngine_Cards
+uRetroEngine_Game
+uRetroEngine_Libs
+
+3) Open one from examples and PLAY.
+
 
 BUILD:
 -------------
 
-1) Open scene Assets\uRe-Runner-LUA\Scenes\Test-uRetroEngine-LUA.unity
+1) Open scene uRe-Runner-LUA\Scenes\Test-uRetroEngine-LUA.unity
 2) Select scene object uRetroEngineCanvas-LUA
-3) Press button [Build RetroeEngine] from inspector on uRetroEngine_Runner_LUA component
+3) Press button [Build RetroEngine] from inspector on uRetroEngine_Runner_LUA component
 4) Optional: Press button [Move cartridges] from inspector when you made any changes from editor
 
 
@@ -62,10 +91,3 @@ EXECUTE:
 	*- create cartridge folder template*
 
 
-License:
------------
-
-Licensed under the Microsoft Public License (MS-PL) License. See LICENSE file in the project root for full license information. The code supplied is totally free for either personal or commercial use, with no warranties.
-
-uRetroEngine is Copyright (c) 2017 Ondrej Kollar. 
-All rights reserved.

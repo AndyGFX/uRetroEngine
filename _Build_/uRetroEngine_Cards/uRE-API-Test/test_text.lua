@@ -6,7 +6,7 @@ function _start()
 	Console:Print("Start ...")
 
 	Text:SetFont(0,0,7)
-	Text:SetFont(1,16*7,7)
+	Text:SetFont(1,16*8,7)
 end
 
 function _scanline( line )
