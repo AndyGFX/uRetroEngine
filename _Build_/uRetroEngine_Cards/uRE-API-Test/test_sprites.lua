@@ -24,7 +24,6 @@ end
 function _draw( ... )
 
 	Display:Clear(3)
-	Display:PixelSize(1,1)
 	-- normal
 	Sprites:DrawSprite(0,32,32,false,false)
 	Sprites:DrawSprite(1,40,32,false,false)
@@ -32,19 +31,6 @@ function _draw( ... )
 	-- X flipped
 	Sprites:DrawSprite(0,32+32,32,true,false)
 	Sprites:DrawSprite(1,32+40,32,true,false)
-
-    -- Y flipped
-	Sprites:DrawSprite(0,32+32,48,true,true)
-	Sprites:DrawSprite(1,32+40,48,true,true)
-
-	Display:PixelSize(2,2)
-	-- X flipped
-	Sprites:DrawSprite(0,32+32,50+32,true,false)
-	Sprites:DrawSprite(1,32+40,50+32,true,false)
-
-    -- Y flipped
-	Sprites:DrawSprite(0,32+32,50+48,true,true)
-	Sprites:DrawSprite(1,32+40,50+48,true,true)
 
 	-- draw pixels
 	Graphics:DrawPixels(16,32,8,pixels)
