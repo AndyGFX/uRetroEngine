@@ -5,6 +5,15 @@ o.kollar@gmail.com
 
 Unity retro game framework with lua support
 
+UPDATES:
+-------------
+
+1.1
+
+- fix build from inspector in LUA scene example
+- fix hide/show build-in console
+- fix hide/show build-in code profiler
+
 FEATURES:
 -------------
 
